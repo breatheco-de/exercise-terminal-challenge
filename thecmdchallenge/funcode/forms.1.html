@@ -1,0 +1,163 @@
+<html>
+<head>
+	<title>My Event Listener</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="theBody">
+<div id="content">
+	<h1 id="screen">Event information for: 
+	<select onChange="startListening(this);">
+		<option value="none">Select An Event Type</option>
+		<option value="change">Change</option>
+		<option value="focusin">Focusin</option>
+		<option value="focusout">Focusout</option>
+		<option value="input">Input</option>
+		<option value="submit">Submit</option>
+	</select>
+	</h1>
+	<table id="specs">
+		<tr>
+			<td>Type:</td>
+			<td><span id="screenType"></span></td>
+		</tr>
+		<tr>
+			<td>Target:</td>
+			<td><span id="screenTargetType"></span></td>
+		</tr>
+		<tr>
+			<td>Parent:</td>
+			<td><span id="screenParentType"></span></td>
+		</tr>
+		<tr>
+			<td>Input name:</td>
+			<td><span id="screenName"></span></td>
+		</tr>
+		<tr>
+			<td>Aditional info:</td>
+			<td><span id="screenAditional"></span></td>
+		</tr>
+	</table>
+	<div id="instructions">
+		<h2>Instructions</h2>
+		<p id="instructionsMsg"></p>
+	</div>
+	<form id="form1" action="#" method="get" target="_parent" onsubmit="return false;">
+		<fieldset>
+			<legend>Full Name</legend>
+			<label for="firstname">First:</label>
+			<input type="Text" name="firstname">
+			<label for="lastname">Last:</label>
+			<input type="Text" name="lastname">
+			<label for="lastname">Age:</label>
+			<input type="Number" name="age" min="0" max="50">
+		</fieldset>
+		<fieldset>
+			<legend>Contact information</legend>
+			<input type="Text" name="email" placeholder="username@domain.com">
+			<input type="Text" name="phone" placeholder="Mobile phone">
+			<input type="Text" name="website" placeholder="Personal Website URL">
+		</fieldset>
+		<fieldset>
+			<legend>Gender</legend>
+			<label for="gender">Male:</label>
+			<input type="radio" name="gender" value="male">
+			<label for="gender">Female:</label>
+			<input type="radio" name="gender" value="female">
+		</fieldset>
+		<input type='submit' value='SUBSCRIBE' />
+	</form>
+</div>
+<script type="text/javascript">
+	
+	var old_event_string = "";
+	function startListening(elm)
+	{
+
+		var form1 = document.getElementById('form1');
+		if(old_event_string!='') form1.removeEventListener(old_event_string,myEventListener);
+		
+		old_event_string = elm.value;
+		if(elm.value!='none') form1.addEventListener(elm.value,myEventListener);
+
+		showInstructions(elm.value);
+	}
+
+	var myEventListener = function(event){
+
+		var screenTargetType = document.getElementById('screenTargetType');
+		var screenParentType = document.getElementById('screenParentType');
+		var screenType = document.getElementById('screenType');
+		var screenName = document.getElementById('screenName');
+
+		screenTargetType.innerHTML = event.target;
+		screenParentType.innerHTML = event.target.parentNode;
+		screenName.innerHTML = event.target.name;
+		screenType.innerHTML = event.type;
+		
+		generateAditional(event);
+
+		return false;
+	}
+
+	function showInstructions(eventName)
+	{
+		var instructions = document.getElementById('instructions');
+		instructions.style.display = "block";
+		instructions.className = "glowRed";
+		window.setTimeout(function(){
+			var instructions = document.getElementById('instructions');
+			instructions.className = "";
+			instructions.style.color = "#b70000";
+			instructions.style.fontWeight = "900";
+		}, 1000);
+
+		var instructions = document.getElementById('instructionsMsg');
+		switch(eventName)
+		{
+			case "input":
+				instructions.innerHTML = "Type (input) something in any of the form inputs";
+			break;
+			case "change":
+				instructions.innerHTML = "Change the value of any input, the change only gets called when you focusout";
+			break;
+			case "focusin":
+				instructions.innerHTML = "Focus on any input";
+			break;
+			case "focusout":
+				instructions.innerHTML = "Focus on any input... and then remove focus";
+			break;
+			case "submit":
+				instructions.innerHTML = "Submit the form!";
+			break;
+			default:
+				instructions.innerHTML = "Nothing aditional to show.";
+			break;
+		}
+	}
+
+	function generateAditional(event)
+	{
+		var specs = document.getElementById('specs');
+		specs.className = "glow";
+		window.setTimeout(function(){
+			specs.className = "";
+		}, 100);
+
+		var screenAditional = document.getElementById('screenAditional');
+		switch(event.type)
+		{
+			case "input":
+				screenAditional.innerHTML = "The use input: "+event.target.value;
+			break;
+			case "change":
+				screenAditional.innerHTML = "The new value is: "+event.target.value;
+			break;
+			default:
+				screenAditional.innerHTML = "Nothing aditional to show.";
+			break;
+		}
+	}
+
+</script>
+</body>
+</html>

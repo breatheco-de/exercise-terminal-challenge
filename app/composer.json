@@ -1,0 +1,6 @@
+{
+    "require": {
+        "erusev/parsedown": "^1.6",
+        "twig/twig": "~1.0"
+    }
+}

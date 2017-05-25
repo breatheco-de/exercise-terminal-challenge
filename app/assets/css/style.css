@@ -1,0 +1,48 @@
+.header-image {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: url('../img/bg.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.headline {
+    padding: 120px 0;
+}
+
+.headline h1 {
+    font-size: 130px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.headline h2 {
+    font-size: 77px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+h2 span{display: block; font-size: 0.5em;}
+#services div:first-child{margin-bottom: 50px;}
+hr { margin: 80px 0; }
+section { overflow: hidden; }
+section img.pull-left { margin-right: 40px; width: 300px;}
+section img.pull-right { margin-left: 40px;width: 300px;}
+h2 { font-size: 50px; }
+#services div:last-child h2{ text-align: right;}
+footer { margin: 50px 0; }
+
+/* 
+    This is media querys, here you can apply styles just for specific screen sizes 
+    for more information go here: http://breatheco.de/asset-technology/bootstrap/
+*/
+@media(max-width:768px) {
+    .headline h1,.headline h2, h2{font-size: 3em;}
+    section img.pull-left,section img.pull-right{width:15em;}
+}
+@media(max-width:480px) {
+    .headline h1,.headline h2, h2{font-size: 2em;}
+    section img.pull-left,section img.pull-right{width:9em;}
+}
