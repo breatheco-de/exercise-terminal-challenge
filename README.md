@@ -1,30 +1,17 @@
+#The CMD Challenge
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+This challenge is designed to make yo practice on the most used commands every
+developer needs to know to be able to succeed in real life.
 
+Please open the terminal or command line and try to attempt the following activities:
 
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, we have created a small hello world application.
-
-1) Open the hello-world.php file
-
-2) Follow the run instructions in the file's comments
-
-3) If you want to look at the Apache logs, check out ~/lib/apache2/log
-
-And that's all there is to it! Just have fun. Go ahead and edit the code, 
-or add new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+1. Print current directory path
+2. List all the files from the current directory including the hidden ones
+[ls -R] Now list all the files inside the workspace, recursively (all files in the hierarchy).
+[cd, cat] Go to the last level below the small-name folder and write in the console the content of the trophy.txt file.
+[cd ls] Move back to the root and get List all files with the javascript tipical extension
+[mkdir] create a new folder inside funcode/the-most-funny/ called "not-that-funny".
+[mv, cp] Create a copy of the last file you can vinde below the /boringfolder/ childs (the-mostboding-text.txt)
+[rmdir] remove the "remove-me" folder from the funcode directory 
+[cd, cat] print in the screen the-ultimate-joke.txt
+[rm] remove all the contents form the boringfolder, the are extremly boring.
