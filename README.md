@@ -1,9 +1,19 @@
-#The CMD Challenge
+# The CMD Challenge
 
 This challenge is designed to make yo practice on the most used commands every
 developer needs to know to be able to succeed in real life.
 
-Please open the terminal or command line and try to attempt the following activities:
+# Installing the game
+
+To begin with the callenge make your students clone this project on their computers, every student must have a local version of the repository to be able to play the game.
+```
+$ git clone git@bitbucket.org:codingacademy/terminal-challenge.git
+```
+Note: Your students don't know GIT, and that is ok. Please make them clone there project either way.
+
+# Start Playing!
+
+Now, every student opens the terminal or command line and try to attempt the following activities:
 
 0. _Move_ to **thechmdchallenge** directory
 1. _Print_ current directory path
