@@ -7,7 +7,7 @@ developer needs to know to be able to succeed in real life.
 
 To begin with the callenge make your students clone this project on their computers, every student must have a local version of the repository to be able to play the game.
 ```
-$ git clone git@bitbucket.org:codingacademy/terminal-challenge.git
+$ git clone https://github.com/breatheco-de/excercise-terminal-challenge.git
 ```
 Note: Your students don't know GIT, and that is ok. Please make them clone there project either way.
 
