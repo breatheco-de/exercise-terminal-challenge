@@ -1,16 +1,27 @@
 # The CMD Challenge
 
-This challenge is designed to make yo practice on the most used commands every
-developer needs to know to be able to succeed in real life.
+This challenge is designed to make become familiar with the bash/command line. The challenge goes over the most used commands every developer needs to know, in order to succeed in real life.
 
-# Installing the game
+## Installation (for everyone)
 
-To begin with the callenge make your students clone this project on their computers, every student must have a local version of the repository to be able to play the game.
-```
+#### 1) Students and the teacher must clone this repository:
+```sh
 $ git clone https://github.com/breatheco-de/excercise-terminal-challenge.git
 ```
 Note: Your students don't know GIT, and that is ok. Please make them clone there project either way.
 
+## Just for teachers
+
+#### 1) Install the packages.
+```sh
+$ npm install
+```
+
+#### 2) Run the presentation.
+```sh
+$ npm run start
+```
+
 # Start Playing!
 
-As a teacher, and after cloning the project and doing `npm install`, open the presentation by doing `npm run start`.
+Follow the presentation for better experience.
