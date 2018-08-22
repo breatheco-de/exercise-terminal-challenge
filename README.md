@@ -13,4 +13,4 @@ Note: Your students don't know GIT, and that is ok. Please make them clone there
 
 # Start Playing!
 
-Now start asking the students for the different challenges!
+As a teacher, and after cloning the project and doing `npm install`, open the presentation by doing `npm run start`.
