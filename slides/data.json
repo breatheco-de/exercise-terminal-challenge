@@ -1,15 +1,17 @@
 [
-    { "instructions": "**Get inside** the **thechmdchallenge** directory" },
+    { "instructions": "**Get inside** the `thechmdchallenge/` directory" },
     { "instructions": "**Print** current directory path" },
     { "instructions": "**List all** the files from the **current directory** including the hidden ones" },
     { "instructions": "Now **list all** the files inside the project, recursively (all files in the hierarchy)." },
-    { "instructions": "**Go** to the last level below the **small-name** folder and **write** in the console the content of *the trophy.txt* file." },
-    { "instructions": "**Move** up and get to the **funcode** directory and **list all** files with the javascript typical extension." },
-    { "instructions": "**Create** a new folder inside **funcode/the-most-funny/** called \"**not-that-funny**\"." },
-    { "instructions": "**Create a copy** of the last file you can find within **/boringfolder/** childs (**the-mostboring-text.txt**) and **name** it **myfistcopy.txt**." },
+    { "instructions": "**Clear** all the clutter from the command line" },
+    { "instructions": "**Go** to the last level below the **small-name** folder and **show** on the console the content of the `trophy.txt` file." },
+    { "instructions": "**Move** one level up and get to the **funcode** directory and **list all** files with the javascript typical extension." },
+    { "instructions": "**Create** a new folder inside `funcode/the-most-funny/` called \"**not-that-funny**\"." },
+    { "instructions": "**Create a copy** of the last file you can find within `/boringfolder/` childs (**the-mostboring-text.txt**) and **name** it **myfistcopy.txt**." },
+    { "instructions": "**Move** `funcode/kids.jpg` inside `funcode/images/hello/`" },
     { "instructions": "**Remove** the \"**small-name**\" folder. " },
-    { "instructions": "**Print** in the command line the content of **the-ultimate-joke.txt**." },
+    { "instructions": "**Print** in the command line the content of `the-ultimate-joke.txt`." },
     { "instructions": "**Remove** all the contents form the **boringfolder**, the are extremly boring." },
-    { "instructions": "**Open** the file kamehameha/dragon-ball-jokes.md using the **VI command line text editor**" },
-    { "instructions": "**Update** the file kamehameha/dragon-ball-jokes.md, **remove** the first joke, **save and close** the text editor." }
+    { "instructions": "**Open** the file `kamehameha/dragon-ball-jokes.md` using the **VI command line text editor**" },
+    { "instructions": "**Update** the file kamehameha/*dragon-ball-jokes.md*** by removing the first joke you read on the file, finally **save and close** the text editor." }
 ]

@@ -45,12 +45,12 @@ export default class Presentation extends React.Component {
                 The Command Line Challenge
             </Heading>
             <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-                Know & Love the coders best friend and companion
+                Get to know the coders best friend
             </Text>
         </Slide>
         <Slide transition={["fade"]} bgColor="tertiary">
           <Heading size={6} textColor="primary" caps>How does it work?</Heading>
-          <Heading size={1} textColor="secondary">12 challenges</Heading>
+          <Heading size={1} textColor="secondary">16 challenges</Heading>
           <Heading size={2} textColor="secondary">12 commands</Heading>
           <Heading size={3} textColor="secondary">1 winner</Heading>
         </Slide>
@@ -58,7 +58,7 @@ export default class Presentation extends React.Component {
           <Heading size={2} textColor="secondary" caps>Rules</Heading>
           <List>
             <ListItem>Each challenge can only have 1 winner.</ListItem>
-            <ListItem>Whoever wins the most, wins!</ListItem>
+            <ListItem>Whoever wins the most, wins the prize!</ListItem>
             <ListItem>Only for amateurs (experienced can participate but not win)</ListItem>
             <ListItem>Follow the exact instructions, it can be tricky</ListItem>
             <ListItem>Use the tab shortcut for auto-complete!</ListItem>
