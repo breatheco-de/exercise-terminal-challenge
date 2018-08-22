@@ -1,8 +1,8 @@
-# ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) The CMD Challenge
+![Command Line Preview](https://breatheco-de.github.io/excercise-terminal-challenge/slides/preview.png)
 
-This challenge is designed to make become familiar with the bash/command line. The challenge goes over the most used commands every developer needs to know, in order to succeed in real life.
+This command line challenge is designed to make become familiar with the bash/command line. The challenge goes over the most used commands every developer needs to know, in order to succeed in real life.
 
-> We strongly recomend the reading [The Command Line lesson](https://breatheco.de/en/lesson/the-command-line/) on the BreatheCode platform.
+> :exclamation: We strongly recomend the reading [The Command Line lesson](https://breatheco.de/en/lesson/the-command-line/) on the BreatheCode platform.
 
 ## Installation (for everyone)
 
