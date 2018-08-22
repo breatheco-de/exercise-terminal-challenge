@@ -45,7 +45,7 @@ export default class Presentation extends React.Component {
                 The Command Line Challenge
             </Heading>
             <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-                Get to know the coders best friend
+                Get to know the coder's best friend
             </Text>
         </Slide>
         <Slide transition={["fade"]} bgColor="tertiary">
