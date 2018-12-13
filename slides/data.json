@@ -1,5 +1,5 @@
 [
-    { "instructions": "**Get inside** the `thecmdchallenge/` directory" },
+    { "instructions": "**Get inside** the `thechmdchallenge/` directory" },
     { "instructions": "**Print** current directory path" },
     { "instructions": "**List all** the files from the **current directory** including the hidden ones" },
     { "instructions": "Now **list all** the files inside the project, recursively (all files in the hierarchy)." },
@@ -7,7 +7,7 @@
     { "instructions": "**Go** to the last level below the **small-name** folder and **show** on the console the content of the `trophy.txt` file." },
     { "instructions": "**Move** one level up and get to the **funcode** directory and **list all** files with the javascript typical extension." },
     { "instructions": "**Create** a new directory inside `funcode/the-most-funny/` called \"**not-that-funny**\"." },
-    { "instructions": "**Create a copy** of the last file you can find within `/boringfolder/` childs (**the-mostboring-text.txt**) and **name** it **myfistcopy.txt**." },
+    { "instructions": "**Create a copy** of **the-mostboring-text.txt** (you can find it within `/boringfolder/`'s children) and **name** it **lol.txt**." },
     { "instructions": "**Move** `funcode/kids.jpg` inside `funcode/images/hello/`" },
     { "instructions": "**Remove** the \"**small-name**\" folder. " },
     { "instructions": "**Print** in the command line the content of `the-ultimate-joke.txt`." },
