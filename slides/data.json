@@ -1,5 +1,5 @@
 [
-    { "instructions": "**Get inside** the `thechmdchallenge/` directory" },
+    { "instructions": "**Get inside** the `thecmdchallenge/` directory" },
     { "instructions": "**Print** current directory path" },
     { "instructions": "**List all** the files from the **current directory** including the hidden ones" },
     { "instructions": "Now **list all** the files inside the project, recursively (all files in the hierarchy)." },
