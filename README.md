@@ -1,4 +1,4 @@
-![Command Line Preview](https://breatheco-de.github.io/excercise-terminal-challenge/slides/preview.png)
+![Command Line Preview](https://raw.githubusercontent.com/breatheco-de/exercise-terminal-challenge/master/preview.png)
 
 This command line challenge is designed to make become familiar with the bash/command line. The challenge goes over the most used commands every developer needs to know, in order to succeed in real life.
 
