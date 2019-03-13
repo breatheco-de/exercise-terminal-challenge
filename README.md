@@ -4,17 +4,16 @@ This command line challenge is designed to make become familiar with the bash/co
 
 > :exclamation: We strongly recomend the reading [The Command Line lesson](https://breatheco.de/en/lesson/the-command-line/) on the BreatheCode platform.
 
-The challenge is built for computers using the linux bash, use Cloud 9 or [Gitpod](https://gitpod.io) if you need a terminal in the cloud. 
+💻The challenge is built for computers using the linux bash, use Cloud 9 or [Gitpod](https://gitpod.io) if you need a terminal in the cloud. 
 
-## Students and Teachers must follow this step:
+## 👩‍🎓Students and Teachers must follow this step:
 
-#### 1) Students and the teacher must clone this repository:
 ```sh
 $ git clone https://github.com/breatheco-de/excercise-terminal-challenge.git
 ```
 Note: Your students don't know GIT, and that is ok. Please make them clone there project either way.
 
-## Only teachers must follow this step:
+## 🛑Only teachers must follow this step:
 
 #### 1) Install the packages.
 ```sh
