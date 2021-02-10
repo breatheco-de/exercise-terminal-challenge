@@ -65,6 +65,15 @@ export default class Presentation extends React.Component {
           </List>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
+          <Heading size={2} textColor="secondary" caps>Before we start</Heading>
+          <Text margin="10px 0 0" textColor="tertiary" size={1} fit>
+              Each student must clone the following repository:
+          </Text>
+          <Text margin="10px 0 0" textColor="secondary" size={1} fit bold>
+              https://github.com/breatheco-de/excercise-terminal-challenge.git
+          </Text>                    
+        </Slide>
+        <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
           <Heading size={2} textColor="secondary" caps>Are u ready?</Heading>
         </Slide>
         {additonalSlides}
