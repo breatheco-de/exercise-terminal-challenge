@@ -6,14 +6,22 @@ This command line challenge is designed to make become familiar with the bash/co
 
 💻The challenge is built for computers using the linux bash, use Cloud 9 or [Gitpod](https://gitpod.io) if you need a terminal in the cloud. 
 
-## 👩‍🎓Students and Teachers must follow this step:
+## 🌱  How to start this project
+
+### 👩‍🎓Students and Teachers must follow this step:
+
+This project comes with the necessary files to start working, but you have two options to start:
+
+a) Open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/excercise-terminal-challenge.git
+
+b) You can clone this repository on your local computer:
 
 ```sh
-$ git clone https://github.com/breatheco-de/excercise-terminal-challenge.git
-```
-Note: Your students don't know GIT, and that is ok. Please make them clone there project either way.
+$ git https://github.com/breatheco-de/excercise-terminal-challenge.git
 
-## 🛑Only teachers must follow this step:
+💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
+
+##· Only teachers must follow this step:
 
 #### 1) Install the packages.
 ```sh
