@@ -32,6 +32,6 @@ $ npm install
 $ npm run start
 ```
 
-# ¡Empieza a juagr!
+# ¡Empieza a jugar!
 
 Sigue la presentación para una buena experiencia
