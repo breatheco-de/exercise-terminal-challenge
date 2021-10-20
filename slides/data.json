@@ -1,5 +1,5 @@
 [
-    { "instructions": "**Get inside** the `thechmdchallenge/` directory" },
+    { "instructions": "**Get inside** the `thecmdchallenge/` directory" },
     { "instructions": "Who won the previous challenge? Each winner should explain what he/she did to the entire class each time" },
     { "instructions": "**Print** current directory path" },
     { "instructions": "**List all** the files from the **current directory** including the hidden ones" },
