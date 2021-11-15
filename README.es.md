@@ -1,7 +1,7 @@
 ![Command Line Preview](https://raw.githubusercontent.com/breatheco-de/exercise-terminal-challenge/master/preview.png)
 Este command line challenge está diseñado para que te familiarices con la terminal. Este desafío recorre los comandos más usados y que cualquier desarrollador debe saber para tener éxito en la vida.
 
-> :exclamation: Te recomendamos que leas la lección [The Command Line lesson](https://breatheco.de/en/lesson/the-command-line/) en la plataforma Breathco antes de hacer este ejercicio.
+> :exclamation: Te recomendamos que leas la lección [The Command Line lesson](https://content.breatheco.de/en/lesson/the-command-line-the-terminal) en la plataforma Breathco antes de hacer este ejercicio.
 
 ##🌱  Cómo iniciar este proyecto
 
