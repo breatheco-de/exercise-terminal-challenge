@@ -2,7 +2,7 @@
 
 This command line challenge is designed to help you become familiar with the bash/command line. The challenge goes over the most used commands every developer needs to know in order to succeed in real life.
 
-> :exclamation: We strongly recommend reading [The Command Line lesson](https://breatheco.de/en/lesson/the-command-line/) on the BreatheCode platform.
+> :exclamation: We strongly recommend reading [The Command Line lesson](https://content.breatheco.de/en/lesson/the-command-line-the-terminal) on the BreatheCode platform.
 
 💻The challenge is built for computers using the Linux bash. Use [Gitpod](https://gitpod.io) if you need a terminal in the cloud. 
 
