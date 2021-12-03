@@ -9,7 +9,7 @@ Este command line challenge está diseñado para que te familiarices con la term
 
 Este proyecto viene con los archivos necesarios para empezar a trabajar, pero tienes dos opciones para empezar:
 
-a) Abrir este link con Gitpod en tu navegador: https://gitpod.io#https://github.com/breatheco-de/excercise-terminal-challenge.git
+a) Abrir este enlace con Gitpod en tu navegador: https://gitpod.io#https://github.com/breatheco-de/exercise-terminal-challenge.git
 
 b) Clonar este repositorio localmente en tu computador:
 ```sh
