@@ -22,7 +22,7 @@ $ git https://github.com/breatheco-de/excercise-terminal-challenge.git
 
 💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
-##· Only teachers must follow this step:
+## · Only teachers must follow this step:
 
 #### 1) Install the packages.
 
