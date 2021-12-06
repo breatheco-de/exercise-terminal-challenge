@@ -12,7 +12,7 @@
     { "instructions": "**Move** `funcode/kids.jpg` inside `funcode/images/hello/`" },
     { "instructions": "**Remove** the \"**small-name**\" directory. " },
     { "instructions": "**Print** in the command line the content of `the-ultimate-joke.txt`." },
-    { "instructions": "**Remove** all the contents from the **boringfolder**, they are extremly boring..." },
+    { "instructions": "**Remove** all the contents from the **boringfolder**, they are extremely boring..." },
     { "instructions": "**Open** the file `kamehameha/dragon-ball-jokes.md` using the **VI command line text editor**" },
     { "instructions": "**Update** the file kamehameha/*dragon-ball-jokes.md* by removing the first joke you read on the file, finally **save and close** the text editor." }
 ]
