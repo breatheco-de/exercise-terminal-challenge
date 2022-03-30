@@ -3,7 +3,7 @@ Este command line challenge está diseñado para que te familiarices con la term
 
 > :exclamation: Te recomendamos que leas la lección [The Command Line lesson](https://content.breatheco.de/en/lesson/the-command-line-the-terminal) en la plataforma Breathco antes de hacer este ejercicio.
 
-##🌱  Cómo iniciar este proyecto
+## 🌱  Cómo iniciar este proyecto
 
 ### :woman_student: Tanto estudiantes como profesores deben seguir estas instrucciones:
 
