@@ -34,4 +34,4 @@ $ npm run start
 
 # ¡Empieza a jugar!
 
-Sigue la presentación para una buena experiencia
+Sigue la presentación para una buena experiencia.
