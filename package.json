@@ -38,7 +38,7 @@
     "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-react": "^7.4.0",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "file-loader": "^1.1.5",
     "html-loader": "^0.5.1",
     "is-buffer": "^1.1.5",
