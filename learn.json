@@ -8,6 +8,7 @@
 	"description" : "This command line challenge is designed to make become familiar with the bash/command line. The challenge goes over the most used commands every developer needs to know, in order to succeed in real life.",
 	"preview": "https://raw.githubusercontent.com/breatheco-de/exercise-terminal-challenge/master/preview.png",
 	"technologies": ["terminal", "cmd", "bash"],
-    "autoPlay": false,
-    "projectType": "project"
+	"autoPlay": false,
+    	"projectType": "project",
+	"delivery_formats": "no_delivery"
 }
