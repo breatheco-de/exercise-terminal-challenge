@@ -1,14 +1,16 @@
-![Command Line Preview](https://raw.githubusercontent.com/breatheco-de/exercise-terminal-challenge/master/preview.png)
+<!--hide-->
+# Command Line Preview
+<!--endhide-->
 
 This command line challenge is designed to help you become familiar with the bash/command line. The challenge goes over the most used commands every developer needs to know in order to succeed in real life.
 
 > :exclamation: We strongly recommend reading [The Command Line lesson](https://4geeks.com/lesson/the-command-line-the-terminal) on the 4Geeks.com platform.
 
-💻The challenge is built for computers using the Linux bash. Use [Gitpod](https://gitpod.io) if you need a terminal in the cloud. 
+💻 The challenge is built for computers using the Linux bash. Use [Gitpod](https://gitpod.io) if you need a terminal in the cloud. 
 
 ## 🌱  How to start this project
 
-### 👩‍🎓Students and Teachers must follow this step:
+### 👩‍🎓 Students and Teachers must follow this step:
 
 This project comes with the necessary files to start working, but you have two options to start:
 
@@ -38,4 +40,4 @@ $ npm run start
 
 # Start Playing!
 
-Follow the presentation for better experience.
+Follow the presentation for a better experience.
