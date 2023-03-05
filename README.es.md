@@ -18,7 +18,7 @@ $ git clone https://github.com/breatheco-de/excercise-terminal-challenge.git
 
 💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
 
-## :students: Solo lo profesores debe seguir este paso:
+## :students: Solo los profesores deben seguir este paso:
 
 #### 1) Instalar los paquetes.
 
