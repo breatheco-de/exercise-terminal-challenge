@@ -2,22 +2,27 @@
 # Vista previa de la línea de comandos
 <!--endhide-->
 
-> :exclamation: Te recomendamos que leas la lección [The Command Line lesson](https://content.breatheco.de/en/lesson/the-command-line-the-terminal) en la plataforma BreatheCode antes de hacer este ejercicio.
+Este command line challenge está diseñado para que te familiarices con la terminal. Este desafío recorre los comandos más usados y que cualquier desarrollador debe saber para tener éxito en la vida.
 
-## 🌱  Cómo iniciar este proyecto
+> :exclamation: Te recomendamos que leas la lección [The Command Line lesson](https://4geeks.com/es/lesson/the-command-line-the-terminal-es) en la plataforma de 4Geeks.com antes de hacer este ejercicio.
 
-### :woman_student: Tanto estudiantes como profesores deben seguir estas instrucciones:
+💻 El desafío está diseñado para computadoras que usan Linux bash. Usa [Gitpod](https://gitpod.io) si necesitas una terminal en la nube.
 
-Este proyecto viene con los archivos necesarios para empezar a trabajar, pero tienes dos opciones para empezar:
+## 🌱 Cómo comenzar este proyecto
 
-a) Abrir este enlace con Gitpod en tu navegador: https://gitpod.io#https://github.com/breatheco-de/exercise-terminal-challenge.git
+Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato.
 
-b) Clonar este repositorio localmente en tu computador:
-```sh
-$ git clone https://github.com/breatheco-de/excercise-terminal-challenge.git
+Recomendamos abrir este mismo repositorio usando una herramienta de provisionamiento como [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). Alternativamente, puedes clonarlo en tu computadora local usando el comando `git clone`.
+
+Este es el repositorio que necesitas abrir:
+
+```
+https://github.com/breatheco-de/excercise-terminal-challenge.git
 ```
 
-💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
+**👉 Por favor sigue estos pasos en** [cómo comenzar un proyecto de codificación](https://4geeks.com/lesson/how-to-start-a-project).
+
+💡 Importante: Recuerda guardar y cargar tu código en GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y cargando el código en su nuevo repositorio usando los comandos `add`, `commit` y `push` desde el terminal git.
 
 ## :students: Solo los profesores debe seguir este paso:
 
@@ -36,3 +41,5 @@ $ npm run start
 # ¡Empieza a jugar!
 
 Sigue la presentación para una buena experiencia.
+
+Este y otros proyectos son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Curso de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
