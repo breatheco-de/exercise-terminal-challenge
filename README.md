@@ -1,3 +1,6 @@
+<!--hide-->
+# Command Line Preview
+<!--endhide-->
 
 This command line challenge is designed to help you become familiar with the bash/command line. The challenge goes over the most used commands every developer needs to know in order to succeed in real life.
 
@@ -6,6 +9,8 @@ This command line challenge is designed to help you become familiar with the bas
 💻 The challenge is built for computers using the Linux bash. Use [Gitpod](https://gitpod.io) if you need a terminal in the cloud. 
 
 ## 🌱  How to start this project
+
+### 👩‍🎓 Students and Teachers must follow this step:
 
 This project comes with the necessary files to start working immediately.
 
@@ -37,6 +42,6 @@ $ npm run start
 
 # Start Playing!
 
-Follow the presentation for better experience.
+Follow the presentation for a better experience.
 
 This and many other projects are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning)

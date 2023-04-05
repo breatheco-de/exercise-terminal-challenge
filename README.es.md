@@ -1,3 +1,6 @@
+<!--hide-->
+# Vista previa de la línea de comandos
+<!--endhide-->
 
 Este command line challenge está diseñado para que te familiarices con la terminal. Este desafío recorre los comandos más usados y que cualquier desarrollador debe saber para tener éxito en la vida.
 
@@ -21,7 +24,7 @@ https://github.com/breatheco-de/excercise-terminal-challenge.git
 
 💡 Importante: Recuerda guardar y cargar tu código en GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y cargando el código en su nuevo repositorio usando los comandos `add`, `commit` y `push` desde el terminal git.
 
-## Solo lo profesores debe seguir este paso:
+## :students: Solo los profesores debe seguir este paso:
 
 #### 1) Instalar los paquetes.
 
