@@ -10,6 +10,8 @@ Este command line challenge está diseñado para que te familiarices con la term
 
 ## 🌱 Cómo comenzar este proyecto
 
+👩‍🎓 Alumnos y Profesores deben seguir este paso:
+
 Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato.
 
 Recomendamos abrir este mismo repositorio usando una herramienta de provisionamiento como [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). Alternativamente, puedes clonarlo en tu computadora local usando el comando `git clone`.
@@ -24,7 +26,7 @@ https://github.com/breatheco-de/excercise-terminal-challenge.git
 
 💡 Importante: Recuerda guardar y cargar tu código en GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y cargando el código en su nuevo repositorio usando los comandos `add`, `commit` y `push` desde el terminal git.
 
-## :students: Solo los profesores debe seguir este paso:
+## Solo los profesores debe seguir este paso:
 
 #### 1) Instalar los paquetes.
 
