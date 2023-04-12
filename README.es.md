@@ -10,7 +10,7 @@ Este command line challenge está diseñado para que te familiarices con la term
 
 ## 🌱 Cómo comenzar este proyecto
 
-👩‍🎓 Alumnos y Profesores deben seguir este paso:
+👩‍🎓 **Alumnos y Profesores deben seguir este paso**
 
 Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato.
 
