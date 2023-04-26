@@ -6,7 +6,7 @@ Este command line challenge está diseñado para que te familiarices con la term
 
 > :exclamation: Te recomendamos que leas la lección [The Command Line lesson](https://4geeks.com/es/lesson/the-command-line-the-terminal-es) en la plataforma de 4Geeks.com antes de hacer este ejercicio.
 
-💻 El desafío está diseñado para computadoras que usan Linux bash. Usa [Gitpod](https://gitpod.io) si necesitas una terminal en la nube.
+💻 El desafío está diseñado para computadoras que usan Linux bash. Usa Github Codespaces o Gitpod si necesitas una terminal en la nube.
 
 ## 🌱 Cómo comenzar este proyecto
 

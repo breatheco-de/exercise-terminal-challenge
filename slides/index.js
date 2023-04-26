@@ -18,6 +18,7 @@ import {
 
 // Import theme
 import createTheme from "spectacle/lib/themes/default";
+import iconUrl from "../assets/icon.png";
 
 // Require CSS
 require("normalize.css");
@@ -40,7 +41,7 @@ export default class Presentation extends React.Component {
     return (
       <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
         <Slide transition={["zoom"]} bgColor="primary">
-            <Image margin="0 auto 100px auto" src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,128" />
+            <Image margin="0 auto 100px auto" src={iconUrl} />
             <Heading size={1} fit caps lineHeight={1} textColor="secondary">
                 The Command Line Challenge
             </Heading>
