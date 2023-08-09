@@ -80,7 +80,7 @@ export default class Presentation extends React.Component {
         {additonalSlides}
         <Slide transition={["fade"]} bgColor="secondary" textColor="tertiary">
           <BlockQuote>
-            <Quote>VIM is my favourite text editor. I've been using it for years... I can't figure out how to exit.</Quote>
+            <Quote>VIM is my favorite text editor. I've been using it for years... I can't figure out how to exit.</Quote>
             <Cite>Albert Einstein and Pitagoras</Cite>
           </BlockQuote>
         </Slide>
