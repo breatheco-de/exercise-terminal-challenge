@@ -71,7 +71,7 @@ export default class Presentation extends React.Component {
               Each student must clone the following repository:
           </Text>
           <Text margin="10px 0 0" textColor="secondary" size={1} fit bold>
-              https://github.com/breatheco-de/excercise-terminal-challenge.git
+              https://github.com/breatheco-de/exercise-terminal-challenge.git
           </Text>                    
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
