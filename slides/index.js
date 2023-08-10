@@ -71,7 +71,7 @@ export default class Presentation extends React.Component {
               Each student must clone the following repository:
           </Text>
           <Text margin="10px 0 0" textColor="secondary" size={1} fit bold>
-              https://github.com/breatheco-de/excercise-terminal-challenge.git
+              https://github.com/breatheco-de/exercise-terminal-challenge.git
           </Text>                    
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
@@ -80,8 +80,8 @@ export default class Presentation extends React.Component {
         {additonalSlides}
         <Slide transition={["fade"]} bgColor="secondary" textColor="tertiary">
           <BlockQuote>
-            <Quote>Vim is my favourite text editor. I've been using it for years...I can't figure out how to exit.</Quote>
-            <Cite>Albert Einstain and Pitagoras</Cite>
+            <Quote>VIM is my favorite text editor. I've been using it for years... I can't figure out how to exit.</Quote>
+            <Cite>Albert Einstein and Pitagoras</Cite>
           </BlockQuote>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
