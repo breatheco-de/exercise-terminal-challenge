@@ -4,7 +4,7 @@
 
 Este desafío de la línea de comando está diseñado para que te familiarices con la terminal. Este desafío recorre los comandos más usados y que cualquier desarrollador debe saber para tener éxito en la vida.
 
-> ❗ Te recomendamos que leas la lección [La Línea de Comando](https://4geeks.com/es/lesson/the-command-line-the-terminal-es) en la plataforma de 4Geeks.com antes de hacer este ejercicio.
+> ❗ Te recomendamos que leas la lección [La Línea de Comando](https://4geeks.com/es/lesson/the-command-line-the-terminal-es) en la plataforma de 4Geeks.com antes de hacer este ejercicio :).
 
 💻 El desafío está diseñado para computadoras que usan Linux bash. Usa Github Codespaces o Gitpod si necesitas una terminal en la nube.
 
