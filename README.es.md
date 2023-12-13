@@ -26,7 +26,7 @@ https://github.com/breatheco-de/excercise-terminal-challenge.git
 
 > 💡 Importante: Recuerda guardar y subir tu código en GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y subiendo el código a tu nuevo repositorio usando los comandos `add`, `commit` y `push` desde la terminal git.
 
-## Solo los profesores debe seguir este paso:
+## Solo los profesores deben seguir estos pasos:
 
 #### 1) Instalar los paquetes.
 
