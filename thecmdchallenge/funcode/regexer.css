@@ -1,0 +1,185 @@
+body
+{
+    margin:0;
+}
+#regexer_input textarea,
+#regexer_input pre
+{
+    height: 50px;
+    margin: 0px 2px 5px;
+    padding-right: 3px;
+    width: 97%;
+    display: block;
+    position: absolute;
+    font-family: monospace;
+    resize: none;
+    font-size: 14px;
+}
+
+#regexer_input textarea
+{
+    border: 3px solid #ccc;
+    z-index: 2;
+    background-color: transparent;
+}
+#regexer_input pre
+{
+    z-index: 1;
+    margin-left: 4px;
+    /*margin-top: 16px;*/
+    overflow: hidden;
+    color: transparent;
+}
+
+#regexer_input_replace
+{
+    border: 1px solid #ccc;
+    margin: 55px 2px 5px;
+    padding: 2px;
+    position: absolute;
+    width: 50%;
+    z-index: 2;
+    
+    display: none;
+}
+
+#regexer_input.replace #regexer_input_replace
+{
+    display: block;
+}
+
+
+#regexer_text
+{
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+}
+
+
+#regexer_text textarea#regexer_text_txt,
+#regexer_text pre
+{
+    bottom: 15px;
+    width: 97%;
+    position: absolute;
+    top: 55px;
+    padding: 2px;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+#regexer_text.replace textarea#regexer_text_txt,
+#regexer_text.replace pre
+{
+    width: 50%;
+    top: 80px;
+}
+
+#regexer_replace_txt
+{
+    bottom: 15px;
+    width: 50%;
+    position: absolute;
+    top: 80px;
+    padding: 2px;
+    font-family: monospace;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin: 2px;
+    resize: none;
+    z-index:2;
+    
+    display: none;
+}
+#regexer_text.replace #regexer_replace_txt
+{
+    display: block;
+}
+
+#regexer_text textarea#regexer_text_txt
+{
+    background-color: transparent;
+    z-index: 2;
+    margin: 2px;
+    border: 1px solid #ccc;
+    resize: none;
+    overflow-y: scroll;
+}
+#regexer_text pre
+{
+    margin: 3px;
+    z-index: 1;
+    color: transparent;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-bottom: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+#regexer_text pre span
+{
+    /*background-color: green;*/
+    display: block;
+}
+
+#regex_controll
+{
+    width: 100%;
+    margin: auto;
+    padding-left: 4px;
+}
+
+#regex_controll a
+{
+    cursor: pointer;
+    padding: 5px 5px 2px; 
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    font-size: 13px;
+    font-family: monospace;
+    
+    text-transform: uppercase;
+}
+
+#regex_controll a:first-child
+{
+    border-left: 1px solid #ccc;
+}
+
+#regex_controll a:hover
+{
+    background-color: #eee;
+}
+
+#regex_controll a.sel
+{
+    text-decoration: underline;
+}
+
+/* Highliting */
+.f, .g
+{
+    display: inline!important;
+    margin: 0!important;
+}
+.f.a
+{
+    background-color: yellow;
+}
+.f.b
+{
+    background-color: gold;
+}
+
+.g.s
+{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hg
+{
+    background-color: #ffecb3;
+    color: red;
+    font-weight: bold;
+}
