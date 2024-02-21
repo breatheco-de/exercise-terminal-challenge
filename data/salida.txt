@@ -1,0 +1,74 @@
+    1  mkdir practica_terminal
+    2  cd practica_tutorial
+    3  cd practica_terminal
+    4  touch hello_world.py
+    5  nano hello_world.py
+    6  ./ hello_world.py
+    7  mkdir scripts_python
+    8  mv hello_world.py scripts_python
+    9  cd..
+   10  cd.
+   11  cd ..
+   12  mkdir scripts_python1
+   13  mv hello_world.py scripts_python1
+   14  cd practica_terminal
+   15  mv hello_world.py scripts_python1
+   16  cd scripts_python
+   17  mv hello_world.py scripts_python1
+   18  cd ..
+   19  mkdir scripts_bash
+   20  cd scripts_bash
+   21  touch ejecuta_python.sh
+   22  nano ejecuta_python.sh 
+   23  cd ..
+   24  cd scripts_python1
+   25  ls
+   26  cd ..
+   27  cd scripts_bash
+   28  nano ejecuta_python.sh 
+   29  chmod +x ejecuta_python.sh 
+   30  ./ejecuta_python.sh 
+   31  nano ejecuta_python.sh 
+   32  ./ejecuta_python.sh 
+   33  chmod +x ejecuta_python.sh 
+   34  ./ejecuta_python.sh 
+   35  cd ..
+   36  chmod +x ejecuta_python.sh 
+   37  cd scripts_bash
+   38  nano ejecuta_python.sh 
+   39  chmod +x ejecuta_python.sh 
+   40  ./ejecuta_python.sh 
+   41  nano ejecuta_python.sh 
+   42  ./ejecuta_python.sh 
+   43  cd ..
+   44  cd scripts_python1
+   45  cp hello_world.py copia_archivo.py
+   46  ls
+   47  cp /workspaces/exercise-terminal-challenge/scripts_python1/hello_word.py copia_archivo.py
+   48  pytho3 copia_archivo.py
+   49  Python3 copia_archivo.py 
+   50  Ppthon3 copia_archivo.py 
+   51  python3 copia_archivo.py 
+   52  rm hello_world.py
+   53  rm hello_word.py
+   54  ls
+   55  nano copia_archivo.py 
+   56  python3 copia_archivo.py 
+   57  nano copia_archivo.py 
+   58  python3 copia_archivo.py 
+   59  cd ..
+   60  cat test.txt
+   61  cat /workspaces/exercise-terminal-challenge/practica_terminal/test.txt
+   62  mkdir data
+   63  cd data
+   64  wget https://getsamplefiles.com/download/tar/sample
+   65  tar -xvf sample-tar1.tar
+   66  tar -xvf sample.tar
+   67  wget https://getsamplefiles.com/download/tar/sample-1.tar
+   68  tar -xvf sample-tar1.tar
+   69  tar -xvf sample-1.tar
+   70  find -name "*.jpg"
+   71  pwd
+   72  history
+   73  history > /workspaces/exercise-terminal-challenge/resultado de la practica para felix.txt
+   74  history > salida.txt
