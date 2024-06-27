@@ -2,7 +2,7 @@
 # Vista previa de la línea de comandos
 <!--endhide-->
 
-Este desafío de la línea de comando está diseñado para que te familiarices con la terminal. Este desafío recorre los comandos más usados y que cualquier desarrollador debe saber para tener éxito en la vida.
+Este desafío de la línea de comando está diseñado para que te familiarizarse con la terminal. Este desafío recorre los comandos más usados y que cualquier desarrollador debe saber para tener éxito en la vida.
 
 > ❗ Te recomendamos que leas la lección [La Línea de Comando](https://4geeks.com/es/lesson/the-command-line-the-terminal-es) en la plataforma de 4Geeks.com antes de hacer este ejercicio.
 
