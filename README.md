@@ -2,7 +2,7 @@
 # Command Line Preview
 <!--endhide-->
 
-This command line challenge is designed to help you become familiar with the bash/command line. The challenge goes over the most used commands every developer needs to know in order to succeed in real life.
+This command line challenge is designed to help you become familiar with the bash and command line. The challenge goes over the most used commands every developer needs to know in order to succeed in real life.
 
 > ❗ We strongly recommend reading [The Command Line lesson](https://4geeks.com/lesson/the-command-line-the-terminal) on the 4Geeks.com platform.
 
