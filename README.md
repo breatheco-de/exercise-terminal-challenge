@@ -8,7 +8,7 @@ This command line challenge is designed to help you become familiar with the bas
 
 💻 The challenge is built for computers using the Linux bash. Use Codespaces or Gitpod if you are running on Windows (instructions below). 
 
-## 🌱 How to start this project
+## 🌱 How to start this project:
 
 ### 👩‍🎓 Students and Teachers must follow this step:
 
