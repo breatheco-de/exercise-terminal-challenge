@@ -13,7 +13,7 @@
 		"es": "Este desafío de línea de comandos está diseñado para que te familiarices con la terminal y la línea de comandos bash. El desafío abarca los comandos más utilizados que todo desarrollador necesita conocer para tener éxito en la vida real."
 	},
 	"preview": "https://raw.githubusercontent.com/breatheco-de/exercise-terminal-challenge/master/preview.png",
-	"technologies": ["la-terminal", "command-line", "bash"],
+	"technologies": ["la-terminal", "command-line", "bash", "machine learning", "data science"],
 	"autoPlay": false,
     	"projectType": "project",
 	"delivery": {
