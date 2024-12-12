@@ -18,7 +18,7 @@ Recomendamos abrir este mismo repositorio usando un entorno de desarrollo como [
 
 Este es el repositorio que necesitas abrir:
 
-```text
+```Text
 https://github.com/breatheco-de/excercise-terminal-challenge.git
 ```
 
@@ -30,13 +30,13 @@ https://github.com/breatheco-de/excercise-terminal-challenge.git
 
 #### 1) Instalar los paquetes.
 
-```bash
+```Bash
 $ npm install
 ```
 
 #### 2) Ejecutar la presentación.
 
-```bash
+```Bash
 $ npm run start
 ```
 
