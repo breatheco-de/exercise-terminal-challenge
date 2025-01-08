@@ -8,7 +8,7 @@
 	"translations": ["es", "en"],
 	"difficulty": "beginner",
 	"duration" : 2,
-	"template_url": "self",
+	"template_url": "https://github.com/4GeeksAcademy/python-hello",
 	"description" : {
 		"us": "This command line challenge is designed to make you become familiar with the bash/command line. The challenge goes over the most used commands every developer needs to know, in order to succeed in real life.",
 		"es": "Este desafío de línea de comandos está diseñado para que te familiarices con la terminal y la línea de comandos bash. El desafío abarca los comandos más utilizados que todo desarrollador necesita conocer para tener éxito en la vida real."

@@ -14,19 +14,25 @@ This command line challenge is designed to help you become familiar with the bas
 
 ### 👩‍🎓 Students and Teachers must follow this step:
 
-This project comes with the necessary files to start working immediately.
+There are 2 ways to start:
 
-We recommend opening this very same repository using a provisioning tool like [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternatively, you can clone it on your local computer using the `git clone` command. 
+a) Open this link in your browser with [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod): https://github.com/codespaces/new/?repo=4GeeksAcademy/python-hello
 
-This is the repository you need to open:
+b) You can clone this repository on your local computer:
 
-```text
-https://github.com/breatheco-de/excercise-terminal-challenge.git
+```bash
+$ git clone https://github.com/4GeeksAcademy/python-hello
 ```
 
-**👉 Please follow these steps on** [how to start a coding project](https://4geeks.com/lesson/how-to-start-a-project).
+### Steps
 
-> 💡 Important: Remember to save and upload your code to GitHub by creating a new repository, updating the remote (`git remote set-url origin <your new url>`), and uploading the code to your new repository using the `add`, `commit` and `push` commands from the git terminal.
+- If working locally, you should have python [installed](https://4geeks.com/how-to/how-to-install-python).
+
+- You should open the terminal on the path of this template and run `$ python3 app.py`, if everything works correctly, it should show `Hello World` on the terminal.
+
+- You can test your code by typing: `$ python3 test.py`.
+
+💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
 ## Only teachers must follow this step:
 

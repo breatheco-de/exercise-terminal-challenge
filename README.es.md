@@ -14,19 +14,25 @@ Este desafío de la línea de comando está diseñado para que te familiarices c
 
 ### 👩‍🎓 Alumnos y Profesores deben seguir este paso
 
-Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato.
+Hay dos maneras de empezar:
 
-Recomendamos abrir este mismo repositorio usando un entorno de desarrollo como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). Alternativamente, puedes clonarlo en tu computadora local usando el comando `git clone`.
+a) Abrir este enlace con [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod) en tu navegador: https://github.com/codespaces/new/?repo=4GeeksAcademy/python-hello
 
-Este es el repositorio que necesitas abrir:
+b) Clonar este repositorio localmente en tu computador:
 
-```text
-https://github.com/breatheco-de/excercise-terminal-challenge.git
+```sh
+$ git clone https://github.com/4GeeksAcademy/python-hello
 ```
 
-**👉 Por favor sigue estos pasos sobre** [cómo comenzar un proyecto de programación](https://4geeks.com/es/lesson/como-comenzar-un-proyecto-de-codificacion).
+### Pasos
 
-> 💡 Importante: Recuerda guardar y subir tu código en GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y subiendo el código a tu nuevo repositorio usando los comandos `add`, `commit` y `push` desde la terminal git.
+- Si trabajas localmente, debe tener python [instalado](https://4geeks.com/es/how-to/como-instalar-python).
+
+- Deberías abrir el terminal en la ruta de esta plantilla y ejecutar `$ python3 app.py`, si todo funciona correctamente, debería mostrar `Hello World` en el terminal.
+
+- Puedes probar tu código escribiendo `$ python3 test.py`.
+
+💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
 
 ## Solo los profesores debe seguir este paso:
 
