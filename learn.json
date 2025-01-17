@@ -8,6 +8,7 @@
 	"translations": ["es", "en"],
 	"difficulty": "beginner",
 	"duration" : 2,
+	"agent": "vscode",
 	"template_url": "self",
 	"description" : {
 		"us": "This command line challenge is designed to make you become familiar with the bash/command line. The challenge goes over the most used commands every developer needs to know, in order to succeed in real life.",
