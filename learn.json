@@ -1,4 +1,5 @@
 {
+	"gitpod": true,
 	"title" : {
 		"us": "Command Line Challenge",
 		"es": "El reto de la terminal"
