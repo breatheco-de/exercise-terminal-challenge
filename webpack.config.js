@@ -1,55 +1,125 @@
-
-/* eslint-disable */
-
-var path = require("path");
-var webpack = require("webpack");
+const path = require("path");
+const webpack = require("webpack");
+const TerserWebpackPlugin = require("terser-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
 
 module.exports = {
-  devtool: "cheap-module-source-map",
-  entry: [
-    "babel-polyfill",
-    'webpack-hot-middleware/client',
-    "react-hot-loader/patch",
-    "./index"
-  ],
+  entry: {
+    main: "./index.js",
+    slides: "./slides/index.js"
+  },
   output: {
-    path: path.join(__dirname, "dist"),
-    filename: "bundle.js",
-    publicPath: "/dist",
+    filename: "[name].bundle.js",
+    path: path.resolve(__dirname, "dist"),
+    publicPath: "/"
+  },
+
+  mode: "production",
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+      minSize: 10000,
+      maxSize: 200000,
+      automaticNameDelimiter: "~",
+      cacheGroups: {
+        vendors: {
+          test: /[\\/]node_modules[\\/]/,
+          name: "vendors",
+          chunks: "all",
+          priority: 10,
+        },
+        common: {
+          minChunks: 2,
+          name: "common",
+          chunks: "initial",
+          enforce: true,
+        },
+      },
+    },
+    runtimeChunk: "single",
+    minimize: true,
+    minimizer: [
+      new TerserWebpackPlugin({
+        terserOptions: {
+          compress: {
+            drop_console: true,
+          },
+        },
+      }),
+    ],
+  },
+
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: "babel-loader"
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[hash].[ext]',
+              outputPath: 'images/'
+            },
+          },
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              mozjpeg: {
+                progressive: true,
+                quality: 65
+              },
+              optipng: {
+                enabled: true,
+              },
+              pngquant: {
+                quality: [0.65, 0.90],
+                speed: 4
+              },
+              gifsicle: {
+                interlaced: false,
+              },
+              webp: {
+                quality: 75
+              }
+            }
+          }
+        ],
+      },
+    ]
   },
   plugins: [
-    new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin()
+    new HtmlWebpackPlugin({
+      template: "./index.html",
+      filename: "index.html",
+    }),
+    new webpack.HotModuleReplacementPlugin(),
+    new BundleAnalyzerPlugin()  
   ],
-  module: {
-    loaders: [{
-      test: /\.md$/,
-      loader: "html-loader!markdown-loader?gfm=false"
-    }, {
-      test: /\.(js|jsx)$/,
-      exclude: /node_modules/,
-      loader: "babel-loader",
-      include: __dirname
-    }, {
-      test: /\.css$/,
-      loaders: ["style-loader", "raw-loader"],
-      include: __dirname
-    }, {
-      test: /\.svg$/,
-      loader: "url-loader?limit=10000&mimetype=image/svg+xml",
-      include: path.join(__dirname, "assets")
-    }, {
-      test: /\.png$/,
-      loader: "url-loader?mimetype=image/png",
-      include: path.join(__dirname, "assets")
-    }, {
-      test: /\.gif$/,
-      loader: "url-loader?mimetype=image/gif",
-      include: path.join(__dirname, "assets")
-    }, {
-      test: /\.jpg$/,
-      loader: "url-loader?mimetype=image/jpg",
-      include: path.join(__dirname, "assets")
-    }]
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    historyApiFallback: true,
+    hot: true,
+    open: true,
+    port: 9000
+  },
+  stats: {
+    assets: true,
+    chunks: true,
+    modules: true,
+    orphanModules: true, 
+    entrypoints: true,
+    excludeModules: /node_modules/ 
   }
 };
