@@ -28,9 +28,14 @@ https://github.com/breatheco-de/excercise-terminal-challenge.git
 
 Alternatively, you can clone it on your local computer.
 
-On **Windows and some Linux configurations**, there is a character limit on file or folder names. In this case, it seems the repository has an extremely long directory name, preventing Git from cloning it correctly.
+>⚠️ Before cloning, be aware of this potential issue on Windows  
 
-Follow these steps:
+On **Windows and some Linux configurations**, there is a limit on the number of characters allowed in file and folder names. If the repository has paths that are too long, you might encounter the error:  
+
+> **Filename too long**  
+
+To avoid this issue, instead of cloning the repository in the usual way, use the `--no-checkout` option, which will prevent Git from automatically extracting the long files. Then, manually checkout with these commands:  
+
 ```
 git clone --no-checkout https://github.com/breatheco-de/exercise-terminal-challenge.git
 cd exercise-terminal-challenge
