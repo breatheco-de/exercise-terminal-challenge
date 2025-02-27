@@ -103,7 +103,9 @@ module.exports = {
       filename: "index.html",
     }),
     new webpack.HotModuleReplacementPlugin(),
-    new BundleAnalyzerPlugin()  
+    new BundleAnalyzerPlugin({
+      openAnalyzer: false 
+    })
   ],
   devServer: {
     static: {
