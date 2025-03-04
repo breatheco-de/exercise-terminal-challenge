@@ -16,15 +16,32 @@ Este desafío de la línea de comando está diseñado para que te familiarices c
 
 Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato.
 
-Recomendamos abrir este mismo repositorio usando un entorno de desarrollo como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). Alternativamente, puedes clonarlo en tu computadora local usando el comando `git clone`.
+Recomendamos abrir este mismo repositorio usando un entorno de desarrollo como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). 
 
 Este es el repositorio que necesitas abrir:
 
 ```text
 https://github.com/breatheco-de/excercise-terminal-challenge.git
 ```
-
 **👉 Por favor sigue estos pasos sobre** [cómo comenzar un proyecto de programación](https://4geeks.com/es/lesson/como-comenzar-un-proyecto-de-codificacion).
+
+
+Alternativamente, puedes clonarlo en tu computadora local.
+
+>⚠️ Antes de clonar, ten en cuenta este posible problema en Windows  
+
+En **Windows y algunas configuraciones de Linux**, existe un límite en la cantidad de caracteres permitidos en los nombres de archivos y carpetas. Si el repositorio tiene rutas demasiado largas, podrías encontrarte con el error:  
+
+> **Filename too long**  
+
+Para evitar este problema, en lugar de clonar el repositorio de la forma habitual, usa la opción `--no-checkout`, lo que impedirá que Git extraiga automáticamente los archivos largos. Luego, haz checkout manualmente con estos comandos:  
+
+```bash
+git clone --no-checkout https://github.com/breatheco-de/exercise-terminal-challenge.git
+cd exercise-terminal-challenge
+git checkout HEAD --
+```
+
 
 > 💡 Importante: Recuerda guardar y subir tu código en GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y subiendo el código a tu nuevo repositorio usando los comandos `add`, `commit` y `push` desde la terminal git.
 
