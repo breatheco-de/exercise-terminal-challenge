@@ -41,7 +41,7 @@
     "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-react": "^7.4.0",
-    "express": "^4.16.2",
+    "express": "^4.21.2",
     "file-loader": "^1.1.5",
     "gh-pages": "^6.3.0",
     "html-loader": "^0.5.1",
