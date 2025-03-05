@@ -47,6 +47,9 @@ git checkout HEAD --
 
 ## Solo los profesores debe seguir este paso:
 
+
+Para presentar la actividad a los alumnos, accede a la siguiente [presentación](https://breatheco-de.github.io/exercise-terminal-challenge/). Si experimentas algún problema con el sitio web, sigue estos pasos después de clonar o abrir el proyecto en Codespaces:
+
 #### 1) Instalar los paquetes.
 
 ```bash

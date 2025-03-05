@@ -46,6 +46,8 @@ git checkout HEAD --
 
 ## Only teachers must follow this step:
 
+To present the activity to the students, access the following [presentation](https://breatheco-de.github.io/exercise-terminal-challenge/). If you experience any issues with the website, follow these steps after cloning or opening the project in Codespaces:
+
 #### 1) Install the packages.
 
 ```bash
