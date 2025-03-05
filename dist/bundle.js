@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "84fd8f81e5c1c4483863"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "e7a7a8fe673e183bb231"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -789,7 +789,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(CustomErrorReporter, "CustomErrorReporter", "C:/Users/Rosinni/Desktop/exercise-terminal-challenge/index.js");
+  __REACT_HOT_LOADER__.register(CustomErrorReporter, "CustomErrorReporter", "C:/Users/Rosinni/Desktop/4Geeks/exercise-terminal-challenge/index.js");
 }();
 
 ;
@@ -106711,9 +106711,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(theme, "theme", "C:/Users/Rosinni/Desktop/exercise-terminal-challenge/slides/index.js");
+  __REACT_HOT_LOADER__.register(theme, "theme", "C:/Users/Rosinni/Desktop/4Geeks/exercise-terminal-challenge/slides/index.js");
 
-  __REACT_HOT_LOADER__.register(Presentation, "Presentation", "C:/Users/Rosinni/Desktop/exercise-terminal-challenge/slides/index.js");
+  __REACT_HOT_LOADER__.register(Presentation, "Presentation", "C:/Users/Rosinni/Desktop/4Geeks/exercise-terminal-challenge/slides/index.js");
 }();
 
 ;
