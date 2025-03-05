@@ -14,7 +14,7 @@ Este desafío de la línea de comando está diseñado para que te familiarices c
 
 ### 👩‍🎓 Alumnos y Profesores deben seguir este paso
 
-Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato.
+Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato. Dentro de este repositorio encontrarás una estructura de carpetas organizadas con las que vas poder trabajar.
 
 Recomendamos abrir este mismo repositorio usando un entorno de desarrollo como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). 
 
@@ -47,8 +47,18 @@ git checkout HEAD --
 
 ## Solo los profesores debe seguir este paso:
 
+**Los pequeños desafíos y los slides interactivos NO están en este repositorio, sino que están desplegados en otro lugar.**  
 
-Para presentar la actividad a los alumnos, accede a la siguiente [presentación](https://breatheco-de.github.io/exercise-terminal-challenge/). Si experimentas algún problema con el sitio web, sigue estos pasos después de clonar o abrir el proyecto en Codespaces:
+Para acceder a los **slides interactivos y practicar los desafíos**, visita el siguiente enlace:  
+
+👉 [Ver slides y desafíos](https://breatheco-de.github.io/exercise-terminal-challenge-slides/)
+
+Si experimentas algún problema con el sitio web, sigue estos pasos después de clonar o abrir el siguiente repositorio en Codespaces:
+
+```text
+https://github.com/breatheco-de/exercise-terminal-challenge-slides.git
+```
+
 
 #### 1) Instalar los paquetes.
 
@@ -63,8 +73,5 @@ $ npm run start
 ```
 </onlyfor>
 
-## ¡Empieza a jugar!
-
-Sigue la presentación para una buena experiencia.
 
 Este y otros proyectos son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Cursos de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
