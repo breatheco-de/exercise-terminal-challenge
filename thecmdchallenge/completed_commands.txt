@@ -1,0 +1,30 @@
+    1  pwd
+    2  ls -a
+    3  ls -R
+    4  cd small-name
+    5  cd thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/trophy.txt
+    6  ls
+    7  ls -a
+    8  cd thecmdchallenge/
+    9  cd small-name/
+   10  ls
+   11  cd bigger-name-than-before/
+   12  ls
+   13  cd omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/
+   14  ls
+   15  cd this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/
+   16  ls
+   17  cat trophy.txt 
+   18  cd ..
+   19  ls *.js
+   20  ls
+   21  ls *.js
+   22  pwd
+   23  ls -R
+   24  find . -name "*.js"
+   25  mkdir -p funcode/the-most-funny/not-that-funny
+   26  cp boringfolder/even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception/the-mostboring-text.txt kamehameha/
+   27  rmdir funcode/remove-me
+   28  cat funcode/the-most-funny/lol/the-ultimate-joke.txt
+   29  rm -r boringfolder/*
+   30  history > completed_commands.txt
