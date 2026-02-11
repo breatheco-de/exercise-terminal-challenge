@@ -10,7 +10,7 @@ Este desafío de la línea de comando está diseñado para que te familiarices c
 
 <onlyfor saas="false" withBanner="false">
   
-## 🌱 Cómo comenzar este proyecto
+## 🌱 Cómo comenzar este proyecto.
 
 ### 👩‍🎓 Alumnos y Profesores deben seguir este paso
 
