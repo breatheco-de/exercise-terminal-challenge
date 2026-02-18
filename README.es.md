@@ -45,7 +45,7 @@ git checkout HEAD --
 
 > 💡 Importante: Recuerda guardar y subir tu código en GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y subiendo el código a tu nuevo repositorio usando los comandos `add`, `commit` y `push` desde la terminal git.
 
-## Solo los profesores debe seguir este paso:
+## Solo los profesores deben seguir este paso:
 
 **Los pequeños desafíos y los slides interactivos NO están en este repositorio, sino que están desplegados en otro lugar.**  
 
