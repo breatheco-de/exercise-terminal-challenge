@@ -28,7 +28,7 @@ https://github.com/breatheco-de/excercise-terminal-challenge.git
 
 Alternativamente, puedes clonarlo en tu computadora local.
 
->⚠️ Antes de clonar, ten en cuenta este posible problema en Windows  
+>⚠️ Antes de clonar, ten en cuenta este posible problema en Windows. 
 
 En **Windows y algunas configuraciones de Linux**, existe un límite en la cantidad de caracteres permitidos en los nombres de archivos y carpetas. Si el repositorio tiene rutas demasiado largas, podrías encontrarte con el error:  
 
