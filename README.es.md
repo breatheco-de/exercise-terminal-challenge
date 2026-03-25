@@ -2,11 +2,11 @@
 # Vista previa de la línea de comandos
 <!--endhide-->
 
-Este desafío de la línea de comando está diseñado para que te familiarices con la terminal. Este desafío recorre los comandos más usados y que cualquier desarrollador debe saber para tener éxito en la vida.
+Este desafío recorre los comandos más usados que cualquier desarrollador debe conocer para tener éxito.
 
-> ❗ Te recomendamos que leas la lección [La Línea de Comando](https://4geeks.com/es/lesson/the-command-line-the-terminal-es) en la plataforma de 4Geeks.com antes de hacer este ejercicio.
+> ❗ Te recomendamos que leas la lección [La Línea de Comando](https://4geeks.com/es/lesson/the-command-line-the-terminal-es) en la plataforma de 4Geeks.com antes de realizar este ejercicio.
 
-💻 El desafío está diseñado para computadoras que usan Linux bash. Usa Github Codespaces o Gitpod si necesitas una terminal en la nube.
+💻 El desafío está diseñado para sistemas que utilizan Bash en Linux.. Usa Github Codespaces o Gitpod si necesitas una terminal en la nube.
 
 <onlyfor saas="false" withBanner="false">
   
@@ -14,11 +14,11 @@ Este desafío de la línea de comando está diseñado para que te familiarices c
 
 ### 👩‍🎓 Alumnos y Profesores deben seguir este paso
 
-Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato. Dentro de este repositorio encontrarás una estructura de carpetas organizadas con las que vas poder trabajar.
+Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato. Dentro de este repositorio encontrarás una estructura de carpetas organizadas con las que podrás trabajar.
 
 Recomendamos abrir este mismo repositorio usando un entorno de desarrollo como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). 
 
-Este es el repositorio que necesitas abrir:
+Este es el repositorio que debes abrir:
 
 ```text
 https://github.com/breatheco-de/excercise-terminal-challenge.git
