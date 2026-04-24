@@ -7,15 +7,15 @@ This command line challenge is designed to familiarize you with the terminal. Th
 > ❗ We recommend that you read the lesson [The Command Line](https://4geeks.com/es/lesson/the-command-line-the-terminal-es) on the 4Geeks.com platform before doing this exercise.
 
 💻 The challenge is designed for computers using Linux bash. Use Github Codespaces or Gitpod if you need a cloud terminal.
-  
+
+<onlyfor saas="false" withBanner="false">
+
 ## 🌱 How to start this project.
 
 ### 👩‍🎓 Students and Teachers should follow this step.
 
 This project comes with the necessary files to start working immediately. Inside this repository, you will find an organized folder structure to work with.
 
-<onlyfor saas="false" withBanner="false">
-  
 We recommend opening this same repository using a development environment like [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod).
 
 This is the repository you need to open:
