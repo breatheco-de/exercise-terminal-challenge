@@ -23,7 +23,7 @@ Este es el repositorio que necesitas abrir:
 ```text
 https://github.com/breatheco-de/excercise-terminal-challenge.git
 ```
-**👉 Por favor sigue estos pasos sobre** [cómo comenzar un proyecto de programación](https://4geeks.com/es/lesson/como-comenzar-un-proyecto-de-codificacion).
+**👉 Por favor, sigue estos pasos sobre** [cómo comenzar un proyecto de programación](https://4geeks.com/es/lesson/como-comenzar-un-proyecto-de-codificacion).
 
 
 Alternativamente, puedes clonarlo en tu computadora local.
