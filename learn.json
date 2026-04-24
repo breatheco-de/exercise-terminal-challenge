@@ -14,9 +14,9 @@
     "template_url": "self",
     "gitpod": true,
     "technologies": [
+        "back-end",
         "command-line",
         "bash",
-        "back-end",
         "cybersecurity",
         "servers"
     ],
