@@ -1,0 +1,1195 @@
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge (master) $ pwd
+/workspaces/exercise-terminal-challenge
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge (master) $ ls -a
+.  ..  assets  .devcontainer  .git  .github  .learn  learn.json  preview.png  README.es.md  README.md  thecmdchallenge
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge (master) $ ls -R
+.:
+assets  learn.json  preview.png  README.es.md  README.md  thecmdchallenge
+
+./assets:
+icon.png
+
+./thecmdchallenge:
+boringfolder  console_master.md  funcode  kamehameha  small-name
+
+./thecmdchallenge/boringfolder:
+babel.png  breathecode.shadow.png  c9.png  css3.png  dropzone.js  even-more-boring  hello.txt  html5.png  jquery.png  js.png  sass.png  scale.fix.js  webpack.png
+
+./thecmdchallenge/boringfolder/even-more-boring:
+i-cant-believe-how-boring
+
+./thecmdchallenge/boringfolder/even-more-boring/i-cant-believe-how-boring:
+the-ultimate-boring-inception
+
+./thecmdchallenge/boringfolder/even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception:
+myfirstcopy.txt  the-mostboring-text.txt
+
+./thecmdchallenge/funcode:
+baby.jpg             borat.success.jpg  forms.html    invalid.png      kids.jpg       regexer.1.js     rigoberto.jpg      the-most-funny
+baby.success.1.jpg   einstein.1.png     frame.1.html  keyboard.1.html  mouse.1.html   regexer.css      scared-baby.1.jpg  valid.png
+baby.success.jpg     einstein.png       frame.html    keyboard.html    mouse.html     regexer.js       scared-baby.jpg    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+borat.success.1.jpg  forms.1.html       images        kids.1.jpg       regexer.1.css  rigoberto.1.jpg  script.js
+
+./thecmdchallenge/funcode/images:
+hello
+
+./thecmdchallenge/funcode/images/hello:
+invalid.png
+
+./thecmdchallenge/funcode/the-most-funny:
+lol
+
+./thecmdchallenge/funcode/the-most-funny/lol:
+the-ultimate-joke.txt
+
+./thecmdchallenge/kamehameha:
+dragon-ball-jokes.md
+
+./thecmdchallenge/small-name:
+bigger-name-than-before
+
+./thecmdchallenge/small-name/bigger-name-than-before:
+omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type
+
+./thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type:
+this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious
+
+./thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious:
+trophy.txt
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge (master) $ ls
+assets  learn.json  preview.png  README.es.md  README.md  thecmdchallenge
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge (master) $ cd ..
+@AnderTxuCode ➜ /workspaces $ ls
+exercise-terminal-challenge
+@AnderTxuCode ➜ /workspaces $ cd exercise-terminal-challenge/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge (master) $ ls
+assets  learn.json  preview.png  README.es.md  README.md  thecmdchallenge
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge (master) $ cd thecmdchallenge/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ cd small-name/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ ls
+bigger-name-than-before
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ ls
+bigger-name-than-before
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ cd ..
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ks
+bash: ks: command not found
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls -a
+.  ..  boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ cd small-name/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ ls -a
+.  ..  bigger-name-than-before
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ cd bigger-name-than-before/
+@AnderTxuCode ➜ .../exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before (master) $ ls
+omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type
+@AnderTxuCode ➜ .../exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before (master) $ cd ..
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ ks
+bash: ks: command not found
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ ls
+bigger-name-than-before
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ cd ..
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ cat trophy.txt
+cat: trophy.txt: No such file or directory
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ cd small-name/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ ls
+bigger-name-than-before
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ cd bigger-name-than-before/
+@AnderTxuCode ➜ .../exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before (master) $ ls
+omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type
+@AnderTxuCode ➜ .../exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before (master) $ cd omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/
+@AnderTxuCode ➜ .../thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type (master) $ ls
+this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious
+@AnderTxuCode ➜ .../thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type (master) $ cd this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/
+@AnderTxuCode ➜ .../small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious (master) $ ls
+trophy.txt
+@AnderTxuCode ➜ .../small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious (master) $ cat trophy.txt 
+MMMMMMMMMMMNhoooooooooosyymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdysooo++oo+ooymMMMMMMMM
+MMMMMMMMMMNsohMMMMMMMNNmho/hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNsohdmNMMMMMMMdo+dMMMMMMM
+MMMMMMMMMMh+yMMMMMMMMMMMMs++NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm+oMMMMMMMMMMMMho/MMMMMMM
+MMMMMMMMMMs+hMMMMMMMMMMMMy+/NMMMMMNNNmmddddddddddhhhhhhhhdddmmmmNNNMMMMMMMMd+oMMMMMMMMMMMMmo/dMMMMMM
+MMMMMMMMMMy+hMMMMMMMMMMMMh+/dNhysssoooooooooooo++++++++++ooooossssssyyhhdNMy+yMMMMMMMMMMMMdo/dMMMMMM
+MMMMMMMMMMh+sMMMMMMMMMMMMNho++oossoooooooo+++++/////////++++++ooooooosssooo+yNMMMMMMMMMMMMy+/NMMMMMM
+MMMMMMMMMMNo+mMMMMMMMMMMMMMMNmossssooooo++++++///////////+++++ooooooosysodmNMMMMMMMMMMMMMNs+oMMMMMMM
+MMMMMMMMMMMy+oMMMMMMMMMMMMMMMmoossoooooo++++++///////////+++++ooooooosssomMMMMMMMMMMMMMMMh+/mMMMMMMM
+MMMMMMMMMMMNo/hMMMMMMMMMMMMMMmoossoooooo+++++////////////+++++++++++osso+mMMMMMMMMMMMMMMmo/yMMMMMMMM
+MMMMMMMMMMMMd++dMMMMMMMMMMMMMNoossoo+++++++++////////////+++++++++++osso+mMMMMMMMMMMMMMNs/+NMMMMMMMM
+MMMMMMMMMMMMMh++mMMMMMMMMMMMMmoooso++++++++++////////////+++++++++++osso+NMMMMMMMMMMMMNy++mMMMMMMMMM
+MMMMMMMMMMMMMMy/+mMMMMMMMMMMMNo+ooo+++++++++++///////////+++++++++++oso++NMMMMMMMMMMMMy//mMMMMMMMMMM
+MMMMMMMMMMMMMMMy//dMMMMMMMMMMNo++o++++++++++++///////////+++++++++/+ooo+oNMMMMMMMMMMMy//mMMMMMMMMMMM
+MMMMMMMMMMMMMMMMh+/hMMMMMMMMMMs+++++++//+++++++/////////+++++++////+oo+/sMMMMMMMMMMNs/+mMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMh+/yMMMMMMMMMy/+++//////+++++++///////+++++++/////+oo+/yMMMMMMMMMNo/oNMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMmo/+mMMMMMMMm//++///////++++++++///+++++++++/////+o+//mMMMMMMMMd+/yMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMNy//yNMMMMMMo///////////++++++++++++++++++//////+o//oMMMMMMMNs/+mMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMdo/+dMMMMMd///////////////////////////////::/+++//dMMMMMNh//yNMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMNh+:omMMMMs/////:::::::::::::::::::::::::::/++/:sMMMMNh//sNMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMmy//omMMN+////::::::::::::::::::::::::::/++/:+NMMNh//smMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMmy//odMm/////:::::::::::::::::::::::::/+/:/mMms//smMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMNh+/+yh/////:::::::::::::::::::::::/+/::yh+/+hmMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNds+//::///::::::::::---------::/+/::/++ydNMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdyo/::/:::---------------:://::/oydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh/:::::-------------::/::/hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh+:---------------:::+hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmdso/:-------::/ohmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh:::---/dmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN/:::::sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+//:::dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs+//::NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd++/:+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdo+/:+NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNyoo+/:/odMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmyo+/:/hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmo+/:oMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs+/:yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs+/:hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs+/:yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmo+//sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMyoo+/+mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmdhooo+/+oddmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhssyssoo++oosysydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhysoooooooooooooooooooshmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNhsoooooooooooooooooooooooooosymNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNmdhssooooooooooooooooossyyhdmNNNNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNmmdddhhhhhhhhhdddmmNNNNNNNNNNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMdddddddddddyyyyyysssssssssssssssssyddddddddddddmMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMdddddddddhy+++////:::::-----------/ohddddddddddmMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMdddddddddy++++////:::::-------------hddddddddddmMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMdddddddddy++++////:::::-------------hddddddddddmMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMNdddddddddho+++////:::::-----------::hddddddddddmNMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMNNmddddddddddoo+++++////////////////oddddddddddddmNNMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMNNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNNNMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMddddddddddddddddddddddddddddddddddddddddddddddddddddddMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMNNNNNNNNmddddddddddddddddddddddddddddddddddddddddddddddddddddmNNNNNNNNMMMMMMMMMMMMM
+MMMMMMMMMMMMMNNNNNNNNNNNNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNNNNNNNNNNNNMMMMMMMMM
+MMMMMMMMMMMMMNNNNNNNNNNNNNNNNNNNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNNNNNNNNNNNNMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNMMMMMMMMMMMMMMM@AnderTxuCode ➜ .../small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious (master) $ 
+
+
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/sha1.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/validate.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/parse.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/native.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/v4.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/version.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/stringify.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/v5.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/v1.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/md5.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/index.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/rng.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/v3.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/commonjs-browser/nil.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/v5.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/v1.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/md5.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/uuid-bin.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/regex.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/v35.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/sha1.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/validate.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/parse.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/native.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/v4.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/version.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/stringify.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/v5.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/v1.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/md5.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/index.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/rng.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/v3.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/esm-browser/nil.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/index.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/rng-browser.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/rng.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/v3.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/uuid/dist/nil.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/ieee754/index.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/graceful-fs/clone.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/graceful-fs/graceful-fs.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/graceful-fs/polyfills.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/graceful-fs/legacy-streams.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/once/once.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/buffer-crc32/index.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/fs-constants/browser.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/node_modules/fs-constants/index.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/out/vs/workbench/api/node/extensionHostProcess.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/out/vs/platform/files/node/watcher/watcherMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/out/vs/platform/terminal/node/ptyHostMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/out/server-main.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/out/server-cli.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/out/bootstrap-fork.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/github-authentication/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/github/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/microsoft-authentication/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/typescript-language-features/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/node_modules/typescript/lib/_tsserver.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/node_modules/typescript/lib/tsserver.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/node_modules/typescript/lib/watchGuard.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/node_modules/typescript/lib/typescript.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/node_modules/typescript/lib/typingsInstaller.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/node_modules/typescript/lib/_typingsInstaller.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/jake/dist/main.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.js-debug-companion/out/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/git/dist/askpass-main.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/git/dist/git-editor-main.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/git/dist/main.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/html-language-features/server/dist/node/421.htmlServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/html-language-features/server/dist/node/769.htmlServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/html-language-features/server/dist/node/490.htmlServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/html-language-features/server/dist/node/htmlServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/html-language-features/client/dist/node/htmlClientMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/php-language-features/dist/phpMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/emmet/dist/node/emmetNodeMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/debug-server-ready/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/markdown-language-features/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/markdown-language-features/dist/serverWorkerMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/markdown-language-features/notebook-out/index.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/markdown-language-features/media/pre.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/markdown-language-features/media/index.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/extension-editing/dist/extensionEditingMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/search-result/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.js-debug/src/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.js-debug/src/renameWorker.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.js-debug/src/watchdog.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.js-debug/src/hash.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.js-debug/src/diagnosticTool.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.js-debug/src/vendor/acorn-loose.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.js-debug/src/vendor/acorn.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.js-debug/src/bootloader.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/merge-conflict/dist/mergeConflictMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/npm/dist/npmMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/media-preview/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/media-preview/media/audioPreview.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/media-preview/media/imagePreview.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/media-preview/media/videoPreview.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/references-view/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ipynb/dist/notebookSerializerWorker.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ipynb/dist/ipynbMain.node.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ipynb/notebook-out/cellAttachmentRenderer.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/terminal-suggest/dist/terminalSuggestMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/terminal-suggest/scripts/update-specs.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/css-language-features/server/dist/node/920.cssServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/css-language-features/server/dist/node/85.cssServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/css-language-features/server/dist/node/cssServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/css-language-features/client/dist/node/cssClientMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/simple-browser/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/simple-browser/media/index.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/debug-auto-launch/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/grunt/dist/main.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.vscode-js-profile-table/out/heapsnapshot-client.bundle.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.vscode-js-profile-table/out/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.vscode-js-profile-table/out/848.extension.web.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.vscode-js-profile-table/out/heapsnapshotWorker.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.vscode-js-profile-table/out/heap-client.bundle.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.vscode-js-profile-table/out/extension.web.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.vscode-js-profile-table/out/425.heapsnapshotWorker.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/ms-vscode.vscode-js-profile-table/out/cpu-client.bundle.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/configuration-editing/dist/configurationEditingMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/tunnel-forwarding/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/gulp/dist/main.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/json-language-features/server/dist/node/875.jsonServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/json-language-features/server/dist/node/jsonServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/json-language-features/server/dist/node/774.jsonServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/json-language-features/client/dist/node/jsonClientMain.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/git-base/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/markdown-math/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/2b3cb533550639a43a144968b07576998a880718-insider/extensions/markdown-math/notebook-out/katex.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/bl/bl.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/bl/BufferList.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/picomatch/lib/parse.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/picomatch/lib/scan.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/picomatch/lib/picomatch.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/picomatch/lib/utils.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/picomatch/lib/constants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/picomatch/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/socks-proxy-agent/dist/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/to-regex-range/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/vscode-regexpp/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/is-extglob/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/socks/build/client/socksclient.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/socks/build/common/util.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/socks/build/common/receivebuffer.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/socks/build/common/helpers.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/socks/build/common/constants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/socks/build/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-pty/lib/unixTerminal.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-pty/lib/types.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-pty/lib/interfaces.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-pty/lib/eventEmitter2.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-pty/lib/worker/conoutSocketWorker.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-pty/lib/terminal.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-pty/lib/shared/conout.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-pty/lib/windowsConoutConnection.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-pty/lib/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-pty/lib/conpty_console_list_agent.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-pty/lib/utils.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-pty/lib/windowsPtyAgent.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-pty/lib/windowsTerminal.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/sprintf-js/dist/sprintf.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/sprintf-js/dist/angular-sprintf.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/sprintf-js/src/angular-sprintf.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/sprintf-js/src/sprintf.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/napi-build-utils/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/lru-cache/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/types.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/mergeRange.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/processors/8-1.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/processors/substitution.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/processors/coverage.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/processors/6-2.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/processors/helper.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/processors/6-1.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/processors/6-3.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/processors/classDef.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/merge.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/tables.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/flatten.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-ligatures/dist/walk.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/strip-json-comments/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/vscode-languagedetection/dist/lib/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/vscode-languagedetection/cli/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/deviceid/dist/storage.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/deviceid/dist/devdeviceid.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/deviceid/dist/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/iconv-lite-umd/lib/iconv-lite-umd.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/proxy-agent/out/agent.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/proxy-agent/out/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/vsce-sign/src/main.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/ripgrep/lib/postinstall.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/ripgrep/lib/download.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/ripgrep/lib/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/ripgrep/node_modules/yauzl/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/spdlog/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/universalify/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@parcel/watcher/node_modules/detect-libc/bin/detect-libc.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@parcel/watcher/node_modules/detect-libc/lib/detect-libc.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@parcel/watcher/wrapper.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@parcel/watcher/scripts/build-from-source.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@parcel/watcher/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/ms/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/mimic-response/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/native-watchdog/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/kerberos/lib/util.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/kerberos/lib/auth_processes/mongodb.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/kerberos/lib/kerberos.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/kerberos/lib/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/experimentalWarning.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/_stream_duplex.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/_stream_readable.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/_stream_transform.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/_stream_writable.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/internal/streams/buffer_list.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/internal/streams/stream-browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/internal/streams/from-browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/internal/streams/state.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/internal/streams/stream.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/internal/streams/async_iterator.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/internal/streams/from.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/internal/streams/end-of-stream.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/internal/streams/destroy.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/internal/streams/pipeline.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/lib/_stream_passthrough.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/readable-browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/errors-browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/errors.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/readable-stream/readable.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/vscode-regexp-languagedetection/dist/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-abi/scripts/update-abi-registry.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/node-abi/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/end-of-stream/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-finder/dist/parse.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-finder/dist/extract.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-finder/dist/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-finder/dist/tables/name.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-finder/dist/tables/utility.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-finder/dist/tables/head.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-finder/dist/tables/os2.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-finder/dist/tables/ltag.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/font-finder/dist/tables/post.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/tas-client-umd/lib/tas-client-umd.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/mkdirp/bin/cmd.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/mkdirp/lib/find-made.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/mkdirp/lib/path-arg.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/mkdirp/lib/use-native.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/mkdirp/lib/mkdirp-manual.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/mkdirp/lib/opts-arg.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/mkdirp/lib/mkdirp-native.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/mkdirp/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fd-slicer/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/tar-stream/sandbox.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/tar-stream/headers.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/tar-stream/pack.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/tar-stream/extract.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/tar-stream/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/http-proxy-agent/dist/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/api/api-request.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/api/api-stream.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/api/util.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/api/readable.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/api/api-connect.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/api/abort-signal.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/api/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/api/api-pipeline.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/api/api-upgrade.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/global.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/cache/sqlite-cache-store.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/cache/memory-cache-store.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/interceptor/dns.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/interceptor/response-error.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/interceptor/retry.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/interceptor/dump.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/interceptor/redirect.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/interceptor/cache.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/env-http-proxy-agent.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/agent.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/client-h2.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/dispatcher.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/balanced-pool.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/pool.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/client-h1.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/dispatcher-base.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/pool-stats.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/client.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/proxy-agent.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/fixed-queue.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/retry-agent.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/dispatcher/pool-base.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/handler/retry-handler.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/handler/cache-revalidation-handler.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/handler/wrap-handler.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/handler/cache-handler.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/handler/decorator-handler.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/handler/redirect-handler.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/handler/unwrap-handler.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/fetch/formdata.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/fetch/dispatcher-weakref.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/fetch/response.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/fetch/global.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/fetch/util.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/fetch/body.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/fetch/headers.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/fetch/formdata-parser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/fetch/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/fetch/data-url.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/fetch/webidl.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/fetch/request.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/fetch/constants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/cookies/util.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/cookies/parse.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/cookies/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/cookies/constants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/cache/util.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/cache/cachestorage.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/cache/cache.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/eventsource/util.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/eventsource/eventsource.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/eventsource/eventsource-stream.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/websocket/stream/websocketstream.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/websocket/stream/websocketerror.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/websocket/receiver.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/websocket/util.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/websocket/permessage-deflate.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/websocket/events.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/websocket/connection.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/websocket/frame.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/websocket/websocket.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/websocket/sender.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/web/websocket/constants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/core/connect.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/core/symbols.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/core/errors.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/core/util.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/core/diagnostics.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/core/tree.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/core/request.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/core/constants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/util/timers.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/util/date.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/util/cache.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/mock/mock-utils.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/mock/pending-interceptors-formatter.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/mock/mock-interceptor.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/mock/mock-agent.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/mock/mock-symbols.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/mock/mock-client.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/mock/mock-pool.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/mock/mock-errors.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/llhttp/llhttp_simd-wasm.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/llhttp/llhttp-wasm.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/llhttp/utils.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/lib/llhttp/constants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/index-fetch.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/scripts/strip-comments.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/undici/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/yazl/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/tunnel-agent/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/decompress-response/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/mkdirp-classic/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/output-file/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/path-exists/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/json/jsonfile.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/json/output-json.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/json/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/json/output-json-sync.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/empty/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/move/move-sync.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/move/move.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/move/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/util/stat.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/util/utimes.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/fs/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/ensure/symlink.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/ensure/symlink-type.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/ensure/file.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/ensure/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/ensure/symlink-paths.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/ensure/link.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/mkdirs/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/mkdirs/make-dir.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/mkdirs/utils.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/remove/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/copy/copy.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/copy/copy-sync.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-extra/lib/copy/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/chownr/chownr.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/base64-js/base64js.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/base64-js/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/rc/browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/rc/lib/utils.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/rc/cli.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/rc/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/vscode-textmate/release/main.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/wrappy/wrappy.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/promise-stream-reader/dist/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/https-proxy-agent/dist/parse-proxy-response.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/https-proxy-agent/dist/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/proxy-from-env/test.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/proxy-from-env/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/bindings/bindings.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-progress/lib/addon-progress.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-clipboard/lib/addon-clipboard.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-search/lib/addon-search.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-ligatures/lib/addon-ligatures.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-webgl/lib/addon-webgl.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/headless/lib-headless/xterm-headless.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-unicode11/lib/addon-unicode11.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-serialize/lib/addon-serialize.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/xterm/lib/xterm.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-image/lib/addon-image.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-image/out/SixelHandler.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-image/out/ImageStorage.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-image/out/IIPMetrics.test.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-image/out/Types.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-image/out/IIPHeaderParser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-image/out/IIPHandler.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-image/out/IIPHeaderParser.test.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-image/out/ImageRenderer.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-image/out/ImageAddon.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@xterm/addon-image/out/IIPMetrics.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/tar-fs/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/ip-address/dist/ipv4.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/ip-address/dist/ip-address.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/ip-address/dist/v6/regular-expressions.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/ip-address/dist/v6/helpers.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/ip-address/dist/v6/constants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/ip-address/dist/address-error.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/ip-address/dist/v4/constants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/ip-address/dist/ipv6.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/ip-address/dist/common.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/vsda/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/vsda/rust/web/vsda.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/jsbn/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/jsbn/example.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/simple-concat/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/is-glob/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/debug/src/browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/debug/src/node.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/debug/src/common.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/debug/src/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/micromatch/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/minimist/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/util-deprecate/browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/util-deprecate/node.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/tiny-inflate/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/buffer/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/safe-buffer/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/string_decoder/lib/string_decoder.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/pump/test-node.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/pump/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/pump/test-browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/dist/opentype.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/dist/opentype.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/glyphset.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/types.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/substitution.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/glyph.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/bbox.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/check.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/position.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/util.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/draw.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/encoding.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/parse.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/hintingtt.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/path.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/table.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/font.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/opentype.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/sfnt.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/name.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/glyf.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/loca.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/head.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/kern.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/os2.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/meta.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/ltag.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/cff.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/gsub.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/fvar.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/hmtx.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/hhea.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/post.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/gpos.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/cmap.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/tables/maxp.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/src/layout.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/bin/server.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/rollup.config.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/opentype.js/externs/opentype.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/vscode-oniguruma/release/main.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/expand-template/test.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/expand-template/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/deep-extend/lib/deep-extend.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/deep-extend/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/jsonfile/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/jsonfile/utils.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@tootallnate/once/dist/types.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@tootallnate/once/dist/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@tootallnate/once/dist/overloaded-parameters.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/js-base64/base64.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/github-from-package/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/detect-libc/lib/process.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/detect-libc/lib/detect-libc.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/file-uri-to-path/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/agent-base/dist/helpers.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/agent-base/dist/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/get-system-fonts/dist/recursiveWalk.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/get-system-fonts/dist/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/braces/lib/expand.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/braces/lib/compile.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/braces/lib/parse.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/braces/lib/stringify.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/braces/lib/utils.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/braces/lib/constants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/braces/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/ini/ini.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/bin/semver.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/gte.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/neq.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/prerelease.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/compare-loose.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/sort.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/minor.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/clean.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/eq.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/valid.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/inc.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/gt.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/coerce.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/rsort.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/lt.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/parse.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/lte.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/rcompare.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/compare.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/patch.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/cmp.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/compare-build.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/satisfies.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/major.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/functions/diff.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/preload.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/ranges/min-satisfying.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/ranges/intersects.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/ranges/to-comparators.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/ranges/outside.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/ranges/min-version.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/ranges/valid.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/ranges/max-satisfying.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/ranges/simplify.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/ranges/ltr.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/ranges/subset.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/ranges/gtr.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/classes/semver.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/classes/comparator.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/classes/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/classes/range.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/internal/identifiers.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/internal/parse-options.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/internal/debug.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/internal/re.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/semver/internal/constants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/smart-buffer/build/smartbuffer.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/smart-buffer/build/utils.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/cookie/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/yallist/iterator.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/yallist/yallist.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/is-number/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/yauzl/fd-slicer.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/yauzl/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/jschardet/dist/jschardet.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-shims/dist/esm/applicationinsights-shims.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-shims/dist/esm/applicationinsights-shims.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-shims/dist/umd/applicationinsights-shims.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-shims/dist/umd/applicationinsights-shims.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-shims/browser/applicationinsights-shims.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-shims/browser/applicationinsights-shims.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-shims/dist-esm/TsLibGlobals.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-shims/dist-esm/Constants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-shims/dist-esm/TsLibShims.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-shims/dist-esm/Helpers.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-shims/dist-esm/applicationinsights-shims.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist/applicationinsights-core-js.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist/applicationinsights-core-js.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/browser/applicationinsights-core-js.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/browser/applicationinsights-core-js.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/applicationinsights-core-js.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/__DynamicConstants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IConfiguration.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IPerfEvent.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IDiagnosticLogger.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IAppInsightsCore.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITelemetryPluginChain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/INotificationManager.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITelemetryPlugin.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITraceParent.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/INotificationListener.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IInstrumentHooks.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IDistributedTraceContext.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IChannelControls.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IPerfManager.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITelemetryItem.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IProcessTelemetryContext.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ICookieMgr.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITelemetryUpdateState.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IDbgExtension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IUnloadableComponent.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITelemetryInitializers.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITelemetryUnloadState.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/ChannelController.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/TelemetryInitializerPlugin.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/BaseCore.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/DiagnosticLogger.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/InstrumentHooks.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/HelperFuncs.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/CoreUtils.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/CookieMgr.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/AppInsightsCore.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/EnvUtils.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/W3cTraceParent.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/RandomHelper.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/EventHelpers.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/NotificationManager.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/TelemetryHelpers.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/DbgExtensionUtils.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/InternalConstants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/ProcessTelemetryContext.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/DataCacheHelper.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/BaseTelemetryPlugin.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/UnloadHandlerContainer.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/PerfManager.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Enums/SendRequestReason.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Enums/EnumHelperFuncs.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Enums/TelemetryUnloadReason.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Enums/TelemetryUpdateReason.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Enums/LoggingEnums.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Enums/EventsDiscardedReason.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist/ms.post.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist/ms.post.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist-esm/src/Serializer.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist-esm/src/Index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist-esm/src/EventBatch.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist-esm/src/RetryPolicy.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist-esm/src/PostChannel.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist-esm/src/TimeoutOverrideWrapper.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist-esm/src/DataModels.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist-esm/src/ClockSkewManager.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist-esm/src/KillSwitch.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist-esm/src/InternalConstants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist-esm/src/typings/XDomainRequest.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist-esm/src/HttpManager.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/dist-esm/src/BatchNotificationActions.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/bundle/ms.post.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/bundle/ms.post.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/bundle/ms.post-3.2.13.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/bundle/ms.post.gbl.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/bundle/ms.post-3.2.13.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/bundle/ms.post.gbl.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/bundle/ms.post-3.2.13.gbl.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-post-js/bundle/ms.post-3.2.13.gbl.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/dist/ms.core.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/dist/ms.core.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/dist-esm/src/Index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/dist-esm/src/ValueSanitizer.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/dist-esm/src/BaseCore.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/dist-esm/src/AppInsightsCore.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/dist-esm/src/DataModels.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/dist-esm/src/InternalConstants.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/dist-esm/src/ESPromiseScheduler.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/dist-esm/src/ESPromise.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/dist-esm/src/Utils.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/dist-esm/src/Enums.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/bundle/ms.core.gbl.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/bundle/ms.core.gbl.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/bundle/ms.core-3.2.13.gbl.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/bundle/ms.core-3.2.13.gbl.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/bundle/ms.core-3.2.13.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/bundle/ms.core.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/bundle/ms.core.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/1ds-core-js/bundle/ms.core-3.2.13.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/node/dynamicproto-js.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/node/dynamicproto-js.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/esm/dynamicproto-js.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/esm/dynamicproto-js.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/iife/dynamicproto-js.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/iife/dynamicproto-js.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/system/dynamicproto-js.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/system/dynamicproto-js.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/amd/dynamicproto-js.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/amd/dynamicproto-js.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/umd/dynamicproto-js.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/umd/dynamicproto-js.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/cjs/dynamicproto-js.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/lib/dist/cjs/dynamicproto-js.min.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/tools/rollup/node/removedynamic.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/@microsoft/dynamicproto-js/tools/rollup/esm/removedynamic.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fill-range/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/simple-get/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/inherits/inherits.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/inherits/inherits_browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/pend/test.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/pend/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/regex.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/v35.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/sha1.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/md5-browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/regex.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/v35.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/sha1.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/validate.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/parse.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/native.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/v4.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/version.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/stringify.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/v5.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/v1.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/md5.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/rng.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/v3.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-node/nil.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/native-browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/validate.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/sha1-browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/parse.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/native.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/v4.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/version.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/stringify.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/regex.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/v35.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/sha1.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/validate.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/parse.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/native.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/v4.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/version.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/stringify.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/v5.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/v1.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/md5.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/rng.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/v3.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/commonjs-browser/nil.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/v5.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/v1.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/md5.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/uuid-bin.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/regex.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/v35.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/sha1.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/validate.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/parse.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/native.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/v4.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/version.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/stringify.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/v5.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/v1.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/md5.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/rng.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/v3.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/esm-browser/nil.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/rng-browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/rng.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/v3.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/uuid/dist/nil.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/ieee754/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/graceful-fs/clone.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/graceful-fs/graceful-fs.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/graceful-fs/polyfills.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/graceful-fs/legacy-streams.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/once/once.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/buffer-crc32/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-constants/browser.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/node_modules/fs-constants/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/out/vs/workbench/api/node/extensionHostProcess.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/out/vs/platform/files/node/watcher/watcherMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/out/vs/platform/terminal/node/ptyHostMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/out/server-main.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/out/server-cli.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/out/bootstrap-fork.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/github-authentication/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/github/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/microsoft-authentication/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/typescript-language-features/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/node_modules/typescript/lib/_tsserver.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/node_modules/typescript/lib/tsserver.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/node_modules/typescript/lib/watchGuard.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/node_modules/typescript/lib/typescript.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/node_modules/typescript/lib/typingsInstaller.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/node_modules/typescript/lib/cancellationToken.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/node_modules/typescript/lib/_typingsInstaller.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/jake/dist/main.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.js-debug-companion/out/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/git/dist/askpass-main.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/git/dist/git-editor-main.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/git/dist/main.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/html-language-features/server/dist/node/421.htmlServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/html-language-features/server/dist/node/769.htmlServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/html-language-features/server/dist/node/490.htmlServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/html-language-features/server/dist/node/htmlServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/html-language-features/client/dist/node/htmlClientMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/php-language-features/dist/phpMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/emmet/dist/node/emmetNodeMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/debug-server-ready/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/markdown-language-features/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/markdown-language-features/dist/serverWorkerMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/markdown-language-features/notebook-out/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/markdown-language-features/media/pre.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/markdown-language-features/media/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/extension-editing/dist/extensionEditingMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/search-result/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.js-debug/src/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.js-debug/src/renameWorker.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.js-debug/src/watchdog.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.js-debug/src/hash.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.js-debug/src/diagnosticTool.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.js-debug/src/vendor/acorn-loose.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.js-debug/src/vendor/acorn.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.js-debug/src/bootloader.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/merge-conflict/dist/mergeConflictMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/npm/dist/npmMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/media-preview/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/media-preview/media/audioPreview.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/media-preview/media/imagePreview.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/media-preview/media/videoPreview.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/references-view/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ipynb/dist/notebookSerializerWorker.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ipynb/dist/ipynbMain.node.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ipynb/notebook-out/cellAttachmentRenderer.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/terminal-suggest/dist/terminalSuggestMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/terminal-suggest/scripts/update-specs.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/css-language-features/server/dist/node/920.cssServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/css-language-features/server/dist/node/85.cssServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/css-language-features/server/dist/node/cssServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/css-language-features/client/dist/node/cssClientMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/simple-browser/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/simple-browser/media/index.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/debug-auto-launch/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/grunt/dist/main.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.vscode-js-profile-table/out/heapsnapshot-client.bundle.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.vscode-js-profile-table/out/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.vscode-js-profile-table/out/848.extension.web.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.vscode-js-profile-table/out/heapsnapshotWorker.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.vscode-js-profile-table/out/heap-client.bundle.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.vscode-js-profile-table/out/extension.web.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.vscode-js-profile-table/out/425.heapsnapshotWorker.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/ms-vscode.vscode-js-profile-table/out/cpu-client.bundle.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/configuration-editing/dist/configurationEditingMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/tunnel-forwarding/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/gulp/dist/main.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/json-language-features/server/dist/node/875.jsonServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/json-language-features/server/dist/node/jsonServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/json-language-features/server/dist/node/774.jsonServerMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/json-language-features/client/dist/node/jsonClientMain.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/git-base/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/markdown-math/dist/extension.js
+./.codespaces/bin/cache/bin/linux-x64/4e6f06d1c7ad67cb14a654cee571518f8ead0ef2-insider/extensions/markdown-math/notebook-out/katex.js
+./.codespaces/bin/file-syncer.js
+./.codespaces/bin/codespaceStatusTool.js
+./workspaces/exercise-terminal-challenge/thecmdchallenge/boringfolder/dropzone.js
+./workspaces/exercise-terminal-challenge/thecmdchallenge/boringfolder/scale.fix.js
+./workspaces/exercise-terminal-challenge/thecmdchallenge/funcode/regexer.1.js
+./workspaces/exercise-terminal-challenge/thecmdchallenge/funcode/script.js
+./workspaces/exercise-terminal-challenge/thecmdchallenge/funcode/regexer.js
+./workspaces/.codespaces/shared/codespaceStatusTool.js
+@AnderTxuCode ➜ / $ ls
+bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var  vscode  workspaces
+@AnderTxuCode ➜ / $ cd workspaces/
+@AnderTxuCode ➜ /workspaces $ ls
+exercise-terminal-challenge
+@AnderTxuCode ➜ /workspaces $ cd exercise-terminal-challenge/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge (master) $ ls
+assets  learn.json  log.txt  preview.png  README.es.md  README.md  thecmdchallenge
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge (master) $ cd thecmdchallenge/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ cd funcode/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls
+baby.jpg             borat.success.jpg  forms.html    invalid.png      kids.jpg       regexer.1.js     rigoberto.jpg      the-most-funny
+baby.success.1.jpg   einstein.1.png     frame.1.html  keyboard.1.html  mouse.1.html   regexer.css      scared-baby.1.jpg  valid.png
+baby.success.jpg     einstein.png       frame.html    keyboard.html    mouse.html     regexer.js       scared-baby.jpg    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+borat.success.1.jpg  forms.1.html       images        kids.1.jpg       regexer.1.css  rigoberto.1.jpg  script.js
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ mkdir not-that-funny
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls
+baby.jpg             borat.success.jpg  forms.html    invalid.png      kids.jpg        regexer.1.css  rigoberto.1.jpg    script.js
+baby.success.1.jpg   einstein.1.png     frame.1.html  keyboard.1.html  mouse.1.html    regexer.1.js   rigoberto.jpg      the-most-funny
+baby.success.jpg     einstein.png       frame.html    keyboard.html    mouse.html      regexer.css    scared-baby.1.jpg  valid.png
+borat.success.1.jpg  forms.1.html       images        kids.1.jpg       not-that-funny  regexer.js     scared-baby.jpg    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ cd ..
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ cd boringfolder/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ ls
+babel.png  breathecode.shadow.png  c9.png  css3.png  dropzone.js  even-more-boring  hello.txt  html5.png  jquery.png  js.png  sass.png  scale.fix.js  webpack.png
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ cd even-more-boring/
+@AnderTxuCode ➜ .../exercise-terminal-challenge/thecmdchallenge/boringfolder/even-more-boring (master) $ ls
+i-cant-believe-how-boring
+@AnderTxuCode ➜ .../exercise-terminal-challenge/thecmdchallenge/boringfolder/even-more-boring (master) $ cd i-cant-believe-how-boring/
+@AnderTxuCode ➜ .../thecmdchallenge/boringfolder/even-more-boring/i-cant-believe-how-boring (master) $ ls
+the-ultimate-boring-inception
+@AnderTxuCode ➜ .../thecmdchallenge/boringfolder/even-more-boring/i-cant-believe-how-boring (master) $ cd the-ultimate-boring-inception/
+@AnderTxuCode ➜ .../boringfolder/even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception (master) $ ls
+myfirstcopy.txt  the-mostboring-text.txt
+@AnderTxuCode ➜ .../boringfolder/even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception (master) $ mv the-mostboring-text.txt 
+mv: missing destination file operand after 'the-mostboring-text.txt'
+Try 'mv --help' for more information.
+@AnderTxuCode ➜ .../boringfolder/even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception (master) $ mv the-mostboring-text.txt copy.txt
+@AnderTxuCode ➜ .../boringfolder/even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception (master) $ mv the-mostboring-text.txt copy
+mv: cannot stat 'the-mostboring-text.txt': No such file or directory
+@AnderTxuCode ➜ .../boringfolder/even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception (master) $ ls
+copy.txt  myfirstcopy.txt
+@AnderTxuCode ➜ .../boringfolder/even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception (master) $ ls
+copy.txt  myfirstcopy.txt
+@AnderTxuCode ➜ .../boringfolder/even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception (master) $ cp the-mostboring-text.txt copy.txt
+@AnderTxuCode ➜ .../boringfolder/even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception (master) $ cd ..
+@AnderTxuCode ➜ .../thecmdchallenge/boringfolder/even-more-boring/i-cant-believe-how-boring (master) $ ls
+the-ultimate-boring-inception
+@AnderTxuCode ➜ .../thecmdchallenge/boringfolder/even-more-boring/i-cant-believe-how-boring (master) $ cd ..
+@AnderTxuCode ➜ .../exercise-terminal-challenge/thecmdchallenge/boringfolder/even-more-boring (master) $ ls
+i-cant-believe-how-boring
+@AnderTxuCode ➜ .../exercise-terminal-challenge/thecmdchallenge/boringfolder/even-more-boring (master) $ cd ..
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ ls
+babel.png  breathecode.shadow.png  c9.png  css3.png  dropzone.js  even-more-boring  hello.txt  html5.png  jquery.png  js.png  sass.png  scale.fix.js  webpack.png
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ cd ..
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ cd funcode/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls
+baby.jpg             borat.success.jpg  forms.html    invalid.png      kids.jpg        regexer.1.css  rigoberto.1.jpg    script.js
+baby.success.1.jpg   einstein.1.png     frame.1.html  keyboard.1.html  mouse.1.html    regexer.1.js   rigoberto.jpg      the-most-funny
+baby.success.jpg     einstein.png       frame.html    keyboard.html    mouse.html      regexer.css    scared-baby.1.jpg  valid.png
+borat.success.1.jpg  forms.1.html       images        kids.1.jpg       not-that-funny  regexer.js     scared-baby.jpg    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls
+baby.jpg             borat.success.jpg  forms.html    invalid.png      kids.jpg        regexer.1.css  rigoberto.1.jpg    script.js
+baby.success.1.jpg   einstein.1.png     frame.1.html  keyboard.1.html  mouse.1.html    regexer.1.js   rigoberto.jpg      the-most-funny
+baby.success.jpg     einstein.png       frame.html    keyboard.html    mouse.html      regexer.css    scared-baby.1.jpg  valid.png
+borat.success.1.jpg  forms.1.html       images        kids.1.jpg       not-that-funny  regexer.js     scared-baby.jpg    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ cd ..
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ cd funcode/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls
+baby.jpg             borat.success.jpg  forms.html    invalid.png      kids.jpg        regexer.1.css  rigoberto.1.jpg    script.js
+baby.success.1.jpg   einstein.1.png     frame.1.html  keyboard.1.html  mouse.1.html    regexer.1.js   rigoberto.jpg      the-most-funny
+baby.success.jpg     einstein.png       frame.html    keyboard.html    mouse.html      regexer.css    scared-baby.1.jpg  valid.png
+borat.success.1.jpg  forms.1.html       images        kids.1.jpg       not-that-funny  regexer.js     scared-baby.jpg    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls
+baby.jpg             borat.success.jpg  forms.html    invalid.png      kids.jpg        regexer.1.css  rigoberto.1.jpg    script.js
+baby.success.1.jpg   einstein.1.png     frame.1.html  keyboard.1.html  mouse.1.html    regexer.1.js   rigoberto.jpg      the-most-funny
+baby.success.jpg     einstein.png       frame.html    keyboard.html    mouse.html      regexer.css    scared-baby.1.jpg  valid.png
+borat.success.1.jpg  forms.1.html       images        kids.1.jpg       not-that-funny  regexer.js     scared-baby.jpg    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ cd ..
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ cd funcode/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls
+baby.jpg             borat.success.jpg  forms.html    invalid.png      kids.jpg        regexer.1.css  rigoberto.1.jpg    script.js
+baby.success.1.jpg   einstein.1.png     frame.1.html  keyboard.1.html  mouse.1.html    regexer.1.js   rigoberto.jpg      the-most-funny
+baby.success.jpg     einstein.png       frame.html    keyboard.html    mouse.html      regexer.css    scared-baby.1.jpg  valid.png
+borat.success.1.jpg  forms.1.html       images        kids.1.jpg       not-that-funny  regexer.js     scared-baby.jpg    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ cd the-most-funny/
+@AnderTxuCode ➜ .../exercise-terminal-challenge/thecmdchallenge/funcode/the-most-funny (master) $ ls
+lol
+@AnderTxuCode ➜ .../exercise-terminal-challenge/thecmdchallenge/funcode/the-most-funny (master) $ cd lol/
+@AnderTxuCode ➜ .../thecmdchallenge/funcode/the-most-funny/lol (master) $ ls
+the-ultimate-joke.txt
+@AnderTxuCode ➜ .../thecmdchallenge/funcode/the-most-funny/lol (master) $ cat the-ultimate-joke.txt 
+What do you call a programmer from Finland? ..... NERDIC!
+
+Got it?? :)
+@AnderTxuCode ➜ .../thecmdchallenge/funcode/the-most-funny/lol (master) $ ls
+the-ultimate-joke.txt
+@AnderTxuCode ➜ .../thecmdchallenge/funcode/the-most-funny/lol (master) $ cd ..
+@AnderTxuCode ➜ .../exercise-terminal-challenge/thecmdchallenge/funcode/the-most-funny (master) $ ls
+lol
+@AnderTxuCode ➜ .../exercise-terminal-challenge/thecmdchallenge/funcode/the-most-funny (master) $ cd ..
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls
+baby.jpg             borat.success.jpg  forms.html    invalid.png      kids.jpg        regexer.1.css  rigoberto.1.jpg    script.js
+baby.success.1.jpg   einstein.1.png     frame.1.html  keyboard.1.html  mouse.1.html    regexer.1.js   rigoberto.jpg      the-most-funny
+baby.success.jpg     einstein.png       frame.html    keyboard.html    mouse.html      regexer.css    scared-baby.1.jpg  valid.png
+borat.success.1.jpg  forms.1.html       images        kids.1.jpg       not-that-funny  regexer.js     scared-baby.jpg    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ cd ..
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ cd boringfolder/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ ls
+babel.png  breathecode.shadow.png  c9.png  css3.png  dropzone.js  even-more-boring  hello.txt  html5.png  jquery.png  js.png  sass.png  scale.fix.js  webpack.png
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ rm rf boringfolder/*
+rm: cannot remove 'rf': No such file or directory
+rm: cannot remove 'boringfolder/*': No such file or directory
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ cd ..
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ rm rf boringfolder/*
+rm: cannot remove 'rf': No such file or directory
+rm: cannot remove 'boringfolder/even-more-boring': Is a directory
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ rm -rf boringfolder/*
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge (master) $ cd boringfolder/
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ ls
+@AnderTxuCode ➜ /workspaces/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ 

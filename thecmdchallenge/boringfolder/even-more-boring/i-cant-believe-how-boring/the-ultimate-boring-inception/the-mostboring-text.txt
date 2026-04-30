@@ -1,8 +1,0 @@
-Yes, you were right... the command line is the most boring thing...
-.
-.
-.
-.
-.
-.
-But you need to master it to be a developer.
