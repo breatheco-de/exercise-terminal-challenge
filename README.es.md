@@ -12,7 +12,7 @@ Este desafío de la línea de comando está diseñado para que te familiarices c
 
 ### 👩‍🎓 Alumnos y Profesores deben seguir este paso
 
-Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato. Dentro de este repositorio encontrarás una estructura de carpetas organizadas con las que vas poder trabajar.
+Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato. Dentro de este repositorio encontrarás una estructura de carpetas organizadas con las que vas poder a trabajar.
 
 <onlyfor saas="false" withBanner="false">
   
