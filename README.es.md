@@ -8,9 +8,9 @@ Este desafío de la línea de comando está diseñado para que te familiarices c
 
 💻 El desafío está diseñado para computadoras que usan Linux bash. Usa Github Codespaces o Gitpod si necesitas una terminal en la nube.
   
-## 🌱 Cómo comenzar este proyecto
+## 🌱 ¿Cómo comenzar este proyecto?
 
-### 👩‍🎓 Alumnos y Profesores deben seguir este paso
+### 👩‍🎓 Los alumnos y Profesores deben seguir este paso:
 
 Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato. Dentro de este repositorio encontrarás una estructura de carpetas organizadas con las que vas poder trabajar.
 
